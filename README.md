@@ -1,5 +1,8 @@
 # Virtial Cell Challange
 The source for the challange is [here](https://virtualcellchallenge.org/)
+
+A [blog describing](https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge) the wetlab background, dataset genaration and scoring. There was some mindor problem in the original scoring description, now (~Oct. 17. ) it is corrected. 
+
 ## The goal
 ### Note: Shortened version of Hugging Face description. 
 Train a model capable of predicting the effect of silencing a gene in a (partially) unseen cell type, a task they term context generalization.  
