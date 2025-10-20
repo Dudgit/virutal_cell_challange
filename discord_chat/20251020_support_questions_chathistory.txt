@@ -1,0 +1,2478 @@
+hey @Virtual Cell Challenge We are an academic research institute, and we registered as an org, thus the website does not let us invite our colaborators from other universities/institutions (ask emails to be the same domain names) even though it should be possible according to the messages in ⁠announcements , any ideas on what we can do ? 
+
+Many thanks 
+
+Hi, thanks for hosting this great competition! We downloaded the training datasets,  it seems there is no cell type lable for each perturbed cells? and no controlled cells, are those correct? or i miss something, please let me know
+
+thanks
+
+Will we get the protocol for how these cells (hESC) were cultured?
+
+Will we get the protocol for how these cells (hESC) were cultured?
+
+Got a similar question to this, can we get access to the CRISPRi protocol that was used to generate the perturbation data?
+
+I’ve not found anything about either of those questions yet. Tried looking through Arc’s website and mission but still no clue
+
+Under target gene selection, they state ‘these data are not part of the Virtual Cell Challenge and are not publicly available’ referring to the selection process for the perturbations
+
+Best inference? Haha
+
+thanks
+
+I could be completely off but I am assuming the the controlled cells are the ones that have the "non-targeting" target gene.
+
+There are a little over 38k cells that are "non-targeting"
+
+hey @Virtual Cell Challenge We are an academic research institute, and we registered as an org, thus the website does not let us invite our colaborators from other universities/institutions (ask emails to be the same domain names) even though it should be possible according to the messages in ⁠announcements , any ideas on what we can do ?   Many thanks 
+
+please register as an individual, then you can add other emails. we made a late change to the rules to allow for multi-university teams, so we'll try to enable that registration use case in the future. thanks!
+
+Hello @Virtual Cell Challenge , thank you for organizing this great competition! I'm curious—where can I find more details about the baseline "cell mean" model?
+
+please register as an individual, then you can add other emails. we made a late change to the rules to allow for multi-university teams, so we'll try to enable that registration use case in the future. thanks!
+
+Super, thanks !
+
+Under target gene selection, they state ‘these data are not part of the Virtual Cell Challenge and are not publicly available’ referring to the selection process for the perturbations
+
+Yea just double check that, but still wonder if they can provide a bit more detail about the CRISPRi. That helps evaluate how authentic the silencing of gene is. But as they mentioned these genes are carefully selected, I'd simply assume they are all "perfect" silencing then.
+
+Yea just double check that, but still wonder if they can provide a bit more detail about the CRISPRi. That helps evaluate how authentic the silencing of gene is. But as they mentioned these genes are carefully selected, I'd simply assume they are all "perfect" silencing then.
+
+You can just plot this out: https://pub-880fbbaba27845f6bc9728b552fb15b3.r2.dev/gene_silencing_all_151_genes.png
+
+Yea just double check that, but still wonder if they can provide a bit more detail about the CRISPRi. That helps evaluate how authentic the silencing of gene is. But as they mentioned these genes are carefully selected, I'd simply assume they are all "perfect" silencing then.
+
+This is the most egregious (módosítva)
+2025. július 11., péntek 18:27
+
+Noob question: when quantifying batch effects, would you want to cluster cells based on Flex_3 or Flex_3_16?
+
+To pose it another way, can I expect cells to be "covariate matched" within Flex_3 or do I need to subset further to 3_16. EDIT: seems like intra well variance probably isn't that high. Going with the former. (módosítva)
+2025. július 14., hétfő 0:36
+
+@Virtual Cell Challenge I am receiving this error when running cell-eval on my prediction and held out test data. How can I resolve this? What other information can I provide to debug.
+ 
+Bus error (core dumped)
+/opt/conda/envs/myenv/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+
+To pose it another way, can I expect cells to be "covariate matched" within Flex_3 or do I need to subset further to 3_16. EDIT: seems like intra well variance probably isn't that high. Going with the former. (módosítva)
+2025. július 14., hétfő 0:36
+
+From what I have seen, I don’t think it makes much of a difference
+
+
+
+Also @Virtual Cell Challenge, where can we find the baseline values used in the scoring calculation?
+
+Also @Virtual Cell Challenge, where can we find the baseline values used in the scoring calculation?
+
+The "baseline" scores are shown at the bottom of the leaderboard.
+
+When I try to run the training chunk of the official Colab notebook, it always throws "RuntimeError: "convert_indices_from_csr_to_coo_cpu" not implemented for 'Float'".
+
+Hello. I prepared the VCC file with the cell-eval prep tool, but I am getting this error when trying to upload it: Invalid file: Missing cell-eval watermark. Please run file through the cell-eval prep tool.
+
+Also the watermark is actually present in the VCC tarball
+
+
+henrymiller@Henrys-MacBook-Pro Downloads % tar -xvzf prediction.prep.test.vcc 
+x pred.h5ad.zst
+x watermark.txt
+henrymiller@Henrys-MacBook-Pro Downloads % cat watermark.txt 
+vcc-prep% 
+
+
+
+---
+
+EDIT: Never mind now it just started working again (módosítva)
+2025. július 16., szerda 21:22
+
+When I try to run the training chunk of the official Colab notebook, it always throws "RuntimeError: "convert_indices_from_csr_to_coo_cpu" not implemented for 'Float'".
+
+I met the same problem.
+
+I have reported on github
+
+The "baseline" scores are shown at the bottom of the leaderboard.
+
+sorry what i was interested in was the file to use for the score function in cell-eval
+
+Has anyone encountered a “scoring failed” error when submitting their .vcc file to the leaderboard?
+
+Has anyone encountered "Application error: a client-side exception has occurred while loading virtualcellchallenge.org (see the browser console for more information)." when trying to sign in?
+
+Hi, I noticed one inconsistency. When you login to the challenge portal, the system sends a link to sign in, and password is not required. However, if you submit a support ticket, login to check the status of the tickets requires a password. To register on the ticket system is impossible because the email is already taken.
+
+I was trying to run the Colab notebook, this command is running for over an hour, is it expected?
+
+Has anyone encountered nans in the training/validation loss with running the example sate_sm model (starter.toml) locally? (The code given by the colab notebook).
+Also, is anyone aware of support for the RTX 5000 series GPU? (módosítva)
+2025. július 20., vasárnap 1:31
+
+a couple of feature requests:
+
+
+separate out general discussion channel from welcome messages when new users join discord server (makes skimming past discussions a bit difficult)
+,
+submission history/scoring history for multiple submissions
+,
+
+
+thanks! happy to also explain more/provide more feedback if the above isn't clear
+
+I was trying to run the Colab notebook, this command is running for over an hour, is it expected?
+
+It's actually running for over an hour. I encountered the same issue with the notebook. Is it because of the GPU I am using?
+
+It's actually running for over an hour. I encountered the same issue with the notebook. Is it because of the GPU I am using?
+
+training for ~50k steps took ~2 hours for me on a 5090
+
+t4s (default GPU on colabs?) has ~8 TFLOPs
+
+5090 has ~100 TFLOPs?
+
+i would expect nb training without using a more powerful GPU to take a while (módosítva)
+2025. július 21., hétfő 19:52
+
+training for ~50k steps took ~2 hours for me on a 5090  t4s (default GPU on colabs?) has ~8 TFLOPs  5090 has ~100 TFLOPs?  i would expect nb training without using a more powerful GPU to take a while (módosítva)
+2025. július 21., hétfő 19:52
+
+This is good to know. Do they share number of FLOPS taken for X training steps in the paper? I couldn't spot it in my first skim. (módosítva)
+2025. július 21., hétfő 20:02
+
+This is good to know. Do they share number of FLOPS taken for X training steps in the paper? I couldn't spot it in my first skim. (módosítva)
+2025. július 21., hétfő 20:02
+
+training details are in section 4 of the STATE paper (admittedly i didn't read the entire paper but found this paragraph that should be useful to estimate total compute usage)
+
+
+4.6.4. SE Training Details
+SE was trained on a large-scale corpus of 14,420 AnnData files spanning 167 million human
+cells across the Arc scBaseCount (Youngblut et al., 2025), CZ CELL×GENE (Program et al.,
+2025), and Tahoe-100M (Zhang et al., 2025) datasets for 4 epochs. To avoid data leakage,
+datasets were split into separate training and validation sets at the dataset level. To enable
+efficient training at scale, we utilize Flash Attention 2 (Dao, 2024), with mixed precision
+(bf16) training (Kalamkar et al., 2019). Training was distributed across 4 compute nodes,
+each with 8 NVIDIA H100 GPUs. The model was trained with an effective batch size of
+3,072, using per-device batch size of 24 and gradient accumulation over 4 steps.
+ (módosítva)
+2025. július 21., hétfő 21:13
+
+ml engineer background so much of the biology eludes me lol
+
+Yes but we could only speculate with this, right?
+
+assuming GPUs were fully utilized all the time etc.
+
+It's actually running for over an hour. I encountered the same issue with the notebook. Is it because of the GPU I am using?
+
+Run time does depend on the GPU you're using
+
+training details are in section 4 of the STATE paper (admittedly i didn't read the entire paper but found this paragraph that should be useful to estimate total compute usage)  4.6.4. SE Training Details SE was trained on a large-scale corpus of 14,420 AnnData files spanning 167 million human cells across the Arc scBaseCount (Youngblut et al., 2025), CZ CELL×GENE (Program et al., 2025), and Tahoe-100M (Zhang et al., 2025) datasets for 4 epochs. To avoid data leakage, datasets were split into separate training and validation sets at the dataset level. To enable efficient training at scale, we utilize Flash Attention 2 (Dao, 2024), with mixed precision (bf16) training (Kalamkar et al., 2019). Training was distributed across 4 compute nodes, each with 8 NVIDIA H100 GPUs. The model was trained with an effective batch size of 3,072, using per-device batch size of 24 and gradient accumulation over 4 steps. (módosítva)
+2025. július 21., hétfő 21:13
+
+Wow! Thanks for directing to this. Definitely T4 GPU will take forever to run the training step. I have to check the free resources provided. Is anybody using those?
+
++1 to the above; any hopes of getting compute credits we can use for larger training runs? potentially closer to the final scoring date?
+
++1 to the above; any hopes of getting compute credits we can use for larger training runs? potentially closer to the final scoring date?
+
+Hope members in need of Resources saw our announcement: 
+We’ve heard from some competitors that it would be helpful to have access to computing resources. Foundry (https://mlfoundry.com/), an AI cloud compute company, is kindly allocating a limited free supply of GPUs for teams to use in the challenge. To request access, please contact arc@mlfoundry.com with details about why you need compute support. Please note that this offer is being managed by Foundry directly and the Virtual Cell Challenge isn’t involved in allocating compute, nor can we provide technical support or troubleshooting. A huge thanks to our friends at Foundry for supporting the Virtual Cell Challenge!
+
++1 to the above; any hopes of getting compute credits we can use for larger training runs? potentially closer to the final scoring date?
+
+I found this one, copied from VCC post. You can search it in the ⁠general section
+
+I found this one, copied from VCC post. You can search it in the ⁠general section
+
+Yes, see our full announcement here: ⁠announcements⁠
+
+Hi, I noticed one inconsistency. When you login to the challenge portal, the system sends a link to sign in, and password is not required. However, if you submit a support ticket, login to check the status of the tickets requires a password. To register on the ticket system is impossible because the email is already taken.
+
+VCC doesn't require a sign in. You may be seeing a sign in request from Fresh Desk regarding a support ticket. You can expect an email response to help tickets.
+
+Hello @Virtual Cell Challenge , thank you for organizing this great competition! I'm curious—where can I find more details about the baseline "cell mean" model?
+
+Thanks for your question. The cell mean baseline predicts a cell’s post-perturbation profile by returning the average perturbed expression of cells [of the same cell type] observed in the training set. For more details please see page 39 of the State preprint (módosítva)
+2025. július 22., kedd 7:05
+
+I was trying to run the Colab notebook, this command is running for over an hour, is it expected?
+
+Hi, yes this is expected. We recommend using the A100 instance on Google Colab if possible - it should take ~4min/epoch
+
+training details are in section 4 of the STATE paper (admittedly i didn't read the entire paper but found this paragraph that should be useful to estimate total compute usage)  4.6.4. SE Training Details SE was trained on a large-scale corpus of 14,420 AnnData files spanning 167 million human cells across the Arc scBaseCount (Youngblut et al., 2025), CZ CELL×GENE (Program et al., 2025), and Tahoe-100M (Zhang et al., 2025) datasets for 4 epochs. To avoid data leakage, datasets were split into separate training and validation sets at the dataset level. To enable efficient training at scale, we utilize Flash Attention 2 (Dao, 2024), with mixed precision (bf16) training (Kalamkar et al., 2019). Training was distributed across 4 compute nodes, each with 8 NVIDIA H100 GPUs. The model was trained with an effective batch size of 3,072, using per-device batch size of 24 and gradient accumulation over 4 steps. (módosítva)
+2025. július 21., hétfő 21:13
+
+These are SE training details. I think the google colab is using ST.
+
+a couple of feature requests:  separate out general discussion channel from welcome messages when new users join discord server (makes skimming past discussions a bit difficult)
+,
+submission history/scoring history for multiple submissions
+,
+  thanks! happy to also explain more/provide more feedback if the above isn't clear
+
+Same request on (1) to separate Discord server new user notifications. Some good and important discussions in ⁠general , and getting hard to follow.
+
+Is it possible to change the leaderboard ranking to reflect the best submission scores in history, rather than just the most recent one? (módosítva)
+2025. július 22., kedd 11:32
+
+is there a notebook which shows how to reproduce the baseline score on the leaderboard.
+
+is there a notebook which shows how to reproduce the baseline score on the leaderboard.
+
+in ⁠📌-resources-and-support
+
+I would appreciate it if you could display the error message upon submission. This would significantly reduce the turnaround time instead of waiting for a support email.
+
+is there a notebook which shows how to reproduce the baseline score on the leaderboard.
+
+[Edit: @nwyin 's answer is better, leading to ⁠📌-resources-and-support --- missed it]
+
+The Colab notebook shared on the site ends with submitting to the board. I am not completely sure it is a baseline score (not sure to completely understand what the text refers too in code changes), though. (módosítva)
+2025. július 24., csütörtök 3:20
+
+Is it possible to change the leaderboard ranking to reflect the best submission scores in history, rather than just the most recent one? (módosítva)
+2025. július 22., kedd 11:32
+
+this would be amazing
+
+Recently I have 2 submission error but I did not recieve any mail for submission ID, so how can I contact the support service? Thank you so much @Virtual Cell Challenge !
+
+[Edit: @nwyin 's answer is better, leading to ⁠📌-resources-and-support --- missed it]  The Colab notebook shared on the site ends with submitting to the board. I am not completely sure it is a baseline score (not sure to completely understand what the text refers too in code changes), though. (módosítva)
+2025. július 24., csütörtök 3:20
+
+Since at the end of the notebook, the estimated reduced score is not 0 (which it should be if the resulting model were the base model), I believe it is not the baseline score. Meanwhile, I doubt if we could know the exact baseline score.
+
+Hi all and especially to the organizers,
+I am wondering, why do we need to include the control cells in the prediction upload?
+It is recommended to copy them from the input anyway in the docs, so I assume they are not used? (They are not perturbed, after all).
+Including them increases the memory requirement of final processing by ~ 40% (since ~38k cells of 100k), no? Had that crash on me already when converting the matrices (was solved with some mem gymnastics)  (módosítva)
+2025. július 25., péntek 1:57
+
+Hi all and especially to the organizers, I am wondering, why do we need to include the control cells in the prediction upload? It is recommended to copy them from the input anyway in the docs, so I assume they are not used? (They are not perturbed, after all). Including them increases the memory requirement of final processing by ~ 40% (since ~38k cells of 100k), no? Had that crash on me already when converting the matrices (was solved with some mem gymnastics)  (módosítva)
+2025. július 25., péntek 1:57
+
+Try submitting with only one control cell?
+
+Try submitting with only one control cell?
+
+Does that work for you? Tried with 2 control cells and failed, but that might have been another error.
+
+in the colab this file was used 
+data.kwargs.perturbation_features_file="competition_support_set/ESM2_pert_features.pt"
+
+how would one go about generating this file? (I know it comes in the zip, but I'm looking at how that was generated, not a copy of the file)
+
+Try submitting with only one control cell?
+
+Ok, it DOES work. The error was due to something else (int-overflow after memory-gymnastics)
+
+in the colab this file was used  data.kwargs.perturbation_features_file="competition_support_set/ESM2_pert_features.pt"  how would one go about generating this file? (I know it comes in the zip, but I'm looking at how that was generated, not a copy of the file)
+
+described in STATE preprint
+
+Hi all and especially to the organizers, I am wondering, why do we need to include the control cells in the prediction upload? It is recommended to copy them from the input anyway in the docs, so I assume they are not used? (They are not perturbed, after all). Including them increases the memory requirement of final processing by ~ 40% (since ~38k cells of 100k), no? Had that crash on me already when converting the matrices (was solved with some mem gymnastics)  (módosítva)
+2025. július 25., péntek 1:57
+
+yeah, agreed, I think we should only submit predictions, since we are only scored on these anyways
+
+described in STATE preprint
+
+I meant more along the lines of, what code was used to generate it?
+
+I meant more along the lines of, what code was used to generate it?
+
+Gene embeddings (ESM2_pert_features.pt) were computed using ESM-2, specifically the esm2_t48_15B_UR50D model. For each protein-coding transcript, the amino acid sequence (you can find this using Uniprot or similar) was passed through the model to obtain per-amino-acid embeddings, which were then averaged to yield a transcript-level representation. Finally, the gene-level embedding was produced by averaging the embeddings across all transcripts associated with that gene (A single gene can have multiple transcripts!). ESM2 from https://github.com/facebookresearch/esm)
+
+hi everyone, first of all thank you for organizing this challenge  ! I've been looking into the STATE based submission notebook and I was wondering how the data for Replogle-Nadig cell lines were imputed in order to fill out all 18k genes of the VCC ? I have looked at a few papers on sc Data imputation and although no consensus arises, some suggest approaches like DCA, DeepImpute or SAVER, was is one of those methods ?
+
+hi everyone, first of all thank you for organizing this challenge  ! I've been looking into the STATE based submission notebook and I was wondering how the data for Replogle-Nadig cell lines were imputed in order to fill out all 18k genes of the VCC ? I have looked at a few papers on sc Data imputation and although no consensus arises, some suggest approaches like DCA, DeepImpute or SAVER, was is one of those methods ?
+
+I believe state only considers the top 1024 expressed genes/cell
+
+I believe state only considers the top 1024 expressed genes/cell
+
+SE uses 2048 genes to create cell embedding
+
+Oops ! Indeed !
+
+Recently I have 2 submission error but I did not recieve any mail for submission ID, so how can I contact the support service? Thank you so much @Virtual Cell Challenge !
+
+You can always email help@virtualcellchallenge.org
+
+I would appreciate it if you could display the error message upon submission. This would significantly reduce the turnaround time instead of waiting for a support email.
+
+Can you submit a ticket through the help email and we can help diagnose your issue?
+
+all right so missing genes are simply discarded and considered as not expressed (0 padding to 18k then STATE finds the top 2048 ?). may seem like a dumb question, i am unsure if missing genes in other cell lines are missing because no hit was found or because no target was designed to identify them.
+
+You can just plot this out: https://pub-880fbbaba27845f6bc9728b552fb15b3.r2.dev/gene_silencing_all_151_genes.png
+
+Delayed answer...Only a small percentage of targets have small knockdowns so it shouldn't effect overall score.
+
+Will we get the protocol for how these cells (hESC) were cultured?
+
+Brief VCC experimental method writeup
+
+Parental H1 hESC cells were obtained from Wi-cell and cultured in mTeSR media, and stably integrated with a dCas9-zime3 KRAB CRISPRi effector at low copy number. We adopted the dual guide design and protospacer sequences from Replogle et al. [1] to generate our custom 300-gene VCC guide library. For the perturb-seq experiment, our CRISPRi H1 cells were transduced with our guide library at low MOI of 0.1 and >1000-fold cell coverage, puromycin selected, and harvested on day 7 post-transduction. Cells were then sorted prior to single cell RNA-seq library preparation using 10x Genomics' Flex chemistry and sequenced on the Illumina NovaSeq X at ~1000 cells/perturbation and ~93k reads/cell.
+
+[1] https://elifesciences.org/articles/81856
+
+Thanks for the challenge!
+
+QQ: Is there a reason to use non-zero median normalisation (sc.normalize_total) instead of 10k target sum? It is much harder to re-normalize other scales to your scale without being extremely careful to have the same cell-set / medians. More importantly, for the adata_real of the validation dataset, is it normalized with the median of only the validation set (and the training set only the median of the training set)? (módosítva)
+2025. július 29., kedd 12:27
+
+Hi, does anyone else also get this message?
+
+Hi, trying to run the STATE model provided in the Colab Notebook in ; PyTorch Version: 2.9.0.dev20250729+cu128
+CUDA Available: True
+PyTorch CUDA Version: 12.8
+Device Name: NVIDIA GeForce RTX 5090 but getting this error RuntimeError: CUDA error: no kernel image is available for execution on the device. I can send the full error if anyone's free to help. Thanks
+
+Hi, trying to run the STATE model provided in the Colab Notebook in ; PyTorch Version: 2.9.0.dev20250729+cu128 CUDA Available: True PyTorch CUDA Version: 12.8 Device Name: NVIDIA GeForce RTX 5090 but getting this error RuntimeError: CUDA error: no kernel image is available for execution on the device. I can send the full error if anyone's free to help. Thanks
+
+make sure in your pyproject.toml, your torch is 2.7.0+cu128 or 2.7.1 works too. Use the link from the torch site if possible.
+
+Hi, I see "Error: Content contains inappropriate language" when trying to upload vcc file generated in official Colab example. Anyone know how to fix it?
+
+Hi, I see "Error: Content contains inappropriate language" when trying to upload vcc file generated in official Colab example. Anyone know how to fix it?
+
+lol try changing the name to something other than testik. I dunno if that’s the image but that might be it haha (módosítva)
+2025. július 30., szerda 21:48
+
+changed to "my_first_run" and it worked lol
+
+ahaha
+
+Hi, does anyone else also get this message?
+
+@Virtual Cell Challenge
+
+@Virtual Cell Challenge
+
+Can you provide more information in order to troubleshoot?
+
+Can you provide more information in order to troubleshoot?
+
+Messaged you privately.
+
+Hello, is it allowed to upload the dataset to open source platform and share it publicly for collaboration?
+
+Hi. I'm not sure, don't think i understand the datasets myself. Anybody that does would be doing i and someother persons like me a huge favor
+
+Hi. I'm not sure, don't think i understand the datasets myself. Anybody that does would be doing i and someother persons like me a huge favor
+
+you can DM me
+
+Hello, is it allowed to upload the dataset to open source platform and share it publicly for collaboration?
+
+https://huggingface.co/datasets/cyrilzakka/arc-institute-virtual-cell-dataset
+
+https://huggingface.co/datasets/cyrilzakka/arc-institute-virtual-cell-dataset
+
+Amazing ! Are there plans to convert it to hf-datasets format ? I built a converter but it's not very efficient  (módosítva)
+2025. augusztus 1., péntek 10:10
+
+Amazing ! Are there plans to convert it to hf-datasets format ? I built a converter but it's not very efficient  (módosítva)
+2025. augusztus 1., péntek 10:10
+
+I would love to convert all of the suggested datasets and put them up
+
+But contacting all the authors to confirm is a bridge too far for me
+
+I meant convert the .h5ad format of the challenge to datasets to enjoy all the benefits of using the datasets librairy, but yeah, all the suggested datasets would be a hassle (módosítva)
+2025. augusztus 1., péntek 11:29
+
+I meant convert the .h5ad format of the challenge to datasets to enjoy all the benefits of using the datasets librairy, but yeah, all the suggested datasets would be a hassle (módosítva)
+2025. augusztus 1., péntek 11:29
+
+Oh yes good idea
+
+Which counting mode was used to generate the gene expression values in the training data? E.g., Gene, GeneFull, or GeneFull_ExonOverIntron, ... in scBaseRecounter (módosítva)
+2025. augusztus 4., hétfő 17:29
+
+I'm trying to reproduce the results of the STATE model using the official Colab notebook. I closely followed the provided code and trained the model for 40,000 steps as instructed. However, the  highest overall score I got is only around 0.06, which is far below the reference score. Has anyone else encountered this issue? Any idea what might be going wrong?
+
+No. 40000 steps. Didn't know that part.
+
+Would request the @Virtual Cell Challenge team to share more details about how the STATE training data was prepared for the official Colab notebook example. The H1 data seems to be just a log1p transform of UMI values (not normalized), while the other datasets seem to have been normalized in some other way that could not guess from the data matrix values. It would be helpful if the methodology followed for transforming the counts to float values in the competition_support_set h5 files can be shared by the organizers, thanks
+@VCC (Yusuf Roohani)
+
+Would request the @Virtual Cell Challenge team to share more details about how the STATE training data was prepared for the official Colab notebook example. The H1 data seems to be just a log1p transform of UMI values (not normalized), while the other datasets seem to have been normalized in some other way that could not guess from the data matrix values. It would be helpful if the methodology followed for transforming the counts to float values in the competition_support_set h5 files can be shared by the organizers, thanks @VCC (Yusuf Roohani)
+
+I'm pretty certain the other datasets were gem group Z-normalized (hence the gem group column and zscore available). If you go to the actual dataset page... (https://plus.figshare.com/articles/dataset/_Mapping_information-rich_genotype-phenotype_landscapes_with_genome-scale_Perturb-seq_Replogle_et_al_2022_processed_Perturb-seq_datasets/20029387 )
+
+... they say this and have individual download links:
+
+
+This dataset includes data from three Perturb-seq experiments described in Replogle et al. 2022 (https://doi.org/10.1016/j.cell.2022.05.013): 
+
+K562 genome-scale perturb-seq sampled at day 8 post-transduction (K562_gwps)
+K562 essential-scale perturb-seq sampled at day 6 post-transduction (K562_essential)
+RPE1 essential-scale perturb-seq sampled at day 7 post-transduction (rpe1)
+For each dataset, there are four processed Perturb-seq files in AnnData format (https://anndata.readthedocs.io/en/latest/).
+
+Raw, single-cell expression data for genes expressed at >0.01 UMI per cell (named $pop_raw_singlecell_01.h5ad)
+Raw, pseudo-bulk expression data for genes expressed at >0.01 UMI per cell (named $pop_raw_bulk_01.h5ad)
+gemgroup Z-normalized single-cell expression data for genes expressed at >0.01 UMI per cell (named $pop_normalized_singlecell_01.h5ad)
+gemgroup Z-normalized pseudo-bulk expression data for genes expressed at >0.01 UMI per cell (named $pop_normalized_bulk_01.h5ad)
+
+
+EDIT: The hosts took the raw counts and did this first (to align the supp data with the training data UMI counts... and log1p).
+
+# 50000 UMI from cell paper
+sc.pp.normalize_total(adata_supp, target_sum=50000)
+sc.pp.log1p(adata_supp)
+
+
+The hosts have also dropped all genes (columns) not in the 18080 in the training set and dropped all cells (rows) that do not have a target perturbation that is one of the 200 (training + validation). If you do this preprocessing yourself you get the exact same shapes they have for those supplementary datasets. (módosítva)
+2025. augusztus 5., kedd 17:04
+
+I'm trying to reproduce the results of the STATE model using the official Colab notebook. I closely followed the provided code and trained the model for 40,000 steps as instructed. However, the  highest overall score I got is only around 0.06, which is far below the reference score. Has anyone else encountered this issue? Any idea what might be going wrong?
+
+thanks for sharing, this is odd - I can take a look
+
+thanks for sharing, this is odd - I can take a look
+
+I can confirm, when using the datasets as provided I also scored 0.06 (best case) and lower scores at other checkpoints.
+
+Can any VCC share the preprocessing scripts for the data? Would help alleviate the concerns 
+
+Would request the @Virtual Cell Challenge team to share more details about how the STATE training data was prepared for the official Colab notebook example. The H1 data seems to be just a log1p transform of UMI values (not normalized), while the other datasets seem to have been normalized in some other way that could not guess from the data matrix values. It would be helpful if the methodology followed for transforming the counts to float values in the competition_support_set h5 files can be shared by the organizers, thanks @VCC (Yusuf Roohani)
+
+the support set data was normalized to slightly lower than the median read depth for the competition training data with scanpy.pp.normalize_total. like @Darien Schettler noted, we matched the columns of the expression matrix to the competition training data, and also removed all perturbations not in the 200 (training + validation)
+
+for the missing columns (found in competition data but not in replogle) we imputed in 0s
+
+the support set data was normalized to slightly lower than the median read depth for the competition training data with scanpy.pp.normalize_total. like @Darien Schettler noted, we matched the columns of the expression matrix to the competition training data, and also removed all perturbations not in the 200 (training + validation)
+
+That makes sense. Is the data log1p'd as well? This would explain why np.expm1 can't return raw counts for the supplementary data but it does for the train data.
+
+the support set data was normalized to slightly lower than the median read depth for the competition training data with scanpy.pp.normalize_total. like @Darien Schettler noted, we matched the columns of the expression matrix to the competition training data, and also removed all perturbations not in the 200 (training + validation)
+
+Thanks @VCC (Abhinav Adduri) and other folks for the clarifications. The part about imputing 0s for missing columns and subsetting to the train/val perturbations was clear but I couldn't make out the normalization part. A target_sum of 50k makes sense given the matrix values, @Darien Schettler. Thanks for the prompt responses.
+
+Thanks @VCC (Abhinav Adduri) and other folks for the clarifications. The part about imputing 0s for missing columns and subsetting to the train/val perturbations was clear but I couldn't make out the normalization part. A target_sum of 50k makes sense given the matrix values, @Darien Schettler. Thanks for the prompt responses.
+
+Thanks for bringing it up and having a discussion. Definitely helped me learn and understand more. Good luck!
+
+I also tried reproducing the results using the provided datasets, but ran into the same issue and couldn’t replicate the scores. Looking forward to trying again with the updated preprocessing steps.
+
+Hi, is there information about which training perturbations have strong, subtle, or negligible effects?
+
+Hi, I am trying to understand the implementation of the Perturbation Discrimination Score (PDS) in cell-eval. Do you know why the abs transform is done before calculating the L1 distances: https://github.com/ArcInstitute/cell-eval/blob/2512c4955594f6b7510333956317d51dad580a51/src/cell_eval/metrics/_anndata.py#L152-L164. Based on my understanding the PDS should be calculated on the pseudobulk differential expression vector directly, without the abs transform.
+
+Hi I have a related request regarding evaluation metrics: could the VCC team consider releasing the actual evaluation metrics functions or a notebook.  Currently, it seems many are trying to understand and reproduce the evaluation calculations. I know the website already points to cell-eval, but if I understand correctly, that is a more complex package and still one is always guessing which function (if any) in the package 100% matches the vcc evaluation. I think releasing the evaluation functions can be supportive and actually encourage fair competition about the core of the challenge.
+
+Hi I have a related request regarding evaluation metrics: could the VCC team consider releasing the actual evaluation metrics functions or a notebook.  Currently, it seems many are trying to understand and reproduce the evaluation calculations. I know the website already points to cell-eval, but if I understand correctly, that is a more complex package and still one is always guessing which function (if any) in the package 100% matches the vcc evaluation. I think releasing the evaluation functions can be supportive and actually encourage fair competition about the core of the challenge.
+
+https://github.com/ArcInstitute/cell-eval/blob/main/src/cell_eval/_evaluator.py#L108
+
+If you run the MetricsEvaluator with profile vcc you will be exactly replicating what they're running for the leaderboard (this is not confirmed, but I strongly suspect)
+
+https://github.com/ArcInstitute/cell-eval/blob/main/src/cell_eval/_evaluator.py#L108  If you run the MetricsEvaluator with profile vcc you will be exactly replicating what they're running for the leaderboard (this is not confirmed, but I strongly suspect)
+
+In the row "mean" with order DES MAE PDS?
+
+DE is called overlap at N, PDS is l1 distance
+
+but yes it's mean in the agg_results
+
+Thanks, really helped.
+
+Wonder why the results are kinda different from how I computed DES and PDS though...
+
+I wrote my code based on https://virtualcellchallenge.org/evaluation description here. It seemed very standard and not really possible to go wrong
+
+Wonder why the results are kinda different from how I computed DES and PDS though...
+
+Have a link to the code you used to compute it?
+
+@VCC (Abhinav Adduri) Hi, should questions be submitted via the ticket system or directly here on Discord? A colleague from the team submitted a ticket (#123) regarding gene mapping, but unfortunately it has not been addressed yet. Please let me know whether questions should be submitted only here or via the ticket system as well.
+
+Thanks for bringing it up and having a discussion. Definitely helped me learn and understand more. Good luck!
+
+Hi @Darien Schettler  have a nice competition  This time not Kaggle?
+
+@VCC (Abhinav Adduri) Hi, should questions be submitted via the ticket system or directly here on Discord? A colleague from the team submitted a ticket (#123) regarding gene mapping, but unfortunately it has not been addressed yet. Please let me know whether questions should be submitted only here or via the ticket system as well.
+
+You're inquiry is in our queue. We have quite a few detailed questions these days, and the team is trying to address. We're trying to balance answering individual questions and addressing recurring issues through our Release Notes and FAQ. Thanks for your patience.
+
+Does anyone know why some teams have MAE score > 1.0 ?
+
+Does anyone know why some teams have MAE score > 1.0 ?
+
+Raw score
+
+I've been working on reproducing the state model using the official Colab notebook, but I've encountered a challenge. Despite my best efforts, my highest score is only around 0.06, which seems to be a similar issue that some other participants have been facing.I'd be grateful if you could offer some guidance. Could you @Virtual Cell Challenge  please provide some insights into what might be causing this issue and how I can improve my approach?
+@VCC (Abhinav Adduri) (módosítva)
+2025. augusztus 10., vasárnap 10:00
+
+it would be nice to have the script which does the evaluation metrics the same way as the leaderboard right now it seems as if ill have to spend a couple of hours understanding the cell-eval code base
+
+@Virtual Cell Challenge was it intended to wipe the history of the resources and the announcements channels? Or at least the history that I am permitted to see? (módosítva)
+2025. augusztus 10., vasárnap 16:39
+
+@ aceniccola # lol was wondering same thing.
+
+Hi @Darien Schettler  have a nice competition  This time not Kaggle?
+
+Same to you sir! 
+
+it would be nice to have the script which does the evaluation metrics the same way as the leaderboard right now it seems as if ill have to spend a couple of hours understanding the cell-eval code base
+
+I thought they released a vcc.ipynb notebook to help with that?
+
+it would be nice to have the script which does the evaluation metrics the same way as the leaderboard right now it seems as if ill have to spend a couple of hours understanding the cell-eval code base
+
+welcome in competition 
+
+For enterprise teams, we can't use the STATE model ?
+
+Hi, is there information about which training perturbations have strong, subtle, or negligible effects?
+
+I have the same question. It seems that VCC try to cover different strength of perturbations and phenotypes in the dataset. I am curious if these are evenly split into competition train, val and test? (módosítva)
+2025. augusztus 11., hétfő 11:49
+
+Hi all, I’m training the STATE model and want to resume from a saved checkpoint, but the training.resume_from_checkpoint override didn’t work (Hydra says the key doesn’t exist). Any idea what’s the correct way to provide a checkpoint path so training resumes from that state?
+
+Hi all, I’m training the STATE model and want to resume from a saved checkpoint, but the training.resume_from_checkpoint override didn’t work (Hydra says the key doesn’t exist). Any idea what’s the correct way to provide a checkpoint path so training resumes from that state?
+
+@Virtual Cell Challenge I'm wondering about that as well. (módosítva)
+2025. augusztus 11., hétfő 19:26
+
+Hi all, I’m training the STATE model and want to resume from a saved checkpoint, but the training.resume_from_checkpoint override didn’t work (Hydra says the key doesn’t exist). Any idea what’s the correct way to provide a checkpoint path so training resumes from that state?
+
+Hello, thanks for your question. the model should automatically restart from the "last.ckpt" found in the ${OUTPUT_DIR}/${MODEL_NAME}/checkpoints folder
+
+Hi all, I’m training the STATE model and want to resume from a saved checkpoint, but the training.resume_from_checkpoint override didn’t work (Hydra says the key doesn’t exist). Any idea what’s the correct way to provide a checkpoint path so training resumes from that state?
+
+Please can you share the screenshot or detailed error message.
+
+Please can you share the screenshot or detailed error message.
+
+sure, I assumed the following line can be added to the model train command:
+training.resume_from_checkpoint="/.../checkpoints/prev_ckpt/step=12000.ckpt"
+but this error was generated by Hydra:
+Key 'resume_from_checkpoint' is not in struct ... full_key: training.resume_from_checkpoint
+
+It seems the model is set to start over from where it left off using a saved checkpoint by default, as mentioned Abhinav, so all good.
+
+Hello, I'm new to this sort of competition and engineering in general. For the input data to the model, are we only given which gene was perturbed? I encoded the obs into a one-hot vector and the model seemed to perform poorly on that. To be clear, is the input the perturbed gene and the output the gene expression matrix for each cell? Just wanted to make sure I've covered everything.
+
+@VCC (Abhinav Adduri)
+
+For enterprise teams, we can't use the STATE model ?
+
+@VCC (Abhinav Adduri)
+
+Hello, I'm new to this sort of competition and engineering in general. For the input data to the model, are we only given which gene was perturbed? I encoded the obs into a one-hot vector and the model seemed to perform poorly on that. To be clear, is the input the perturbed gene and the output the gene expression matrix for each cell? Just wanted to make sure I've covered everything.
+
+@Virtual Cell Challenge just to confirm, do the rows/cells in the adata.obs match up respectively with the rows in adata.X?
+
+Hello, I'm new to this sort of competition and engineering in general. For the input data to the model, are we only given which gene was perturbed? I encoded the obs into a one-hot vector and the model seemed to perform poorly on that. To be clear, is the input the perturbed gene and the output the gene expression matrix for each cell? Just wanted to make sure I've covered everything.
+
+Welcome! The input data for the model is a set of control cells (expression matrix for controls) and the name of the perturbation.  The output of the model should be the cell expression matrix for perturbed cells. Check here for links to some tutorials: https://x.com/abhinadduri/status/1952023975007244599?s=46
+
+also yes, each row in .obs matches with adata.X, and each column in .var matches with columns of adata.X. you can learn more about the file format here: https://anndata.readthedocs.io/en/latest/index.html (módosítva)
+2025. augusztus 12., kedd 4:20
+
+@VCC (Abhinav Adduri)
+
+Let me double check
+
+I don't see the control cell expression matrix in the .obs though
+
+I don't see the control cell expression matrix in the .obs though
+
+.obs typically contains metadata, expression will be found in .X
+
+.obs typically contains metadata, expression will be found in .X
+
+So do I take the non-targeting cells and their values from .X and paste it into the input?
+
+“I might be missing something, but cell-eval’s log1p detection (utils.py) seems to differ from pdex’s parallel_differential_expression (_utils.py). Because cell-eval calls this function for DEG and fold-change, VCC inputs appearing to be treated as not log-transformed—regardless of preprocessing—could affect the fold-change results, which depend on the log1p setting. Could you confirm the intended behavior?”
+@VCC (Abhinav Adduri)
+
+I've been working on reproducing the state model using the official Colab notebook, but I've encountered a challenge. Despite my best efforts, my highest score is only around 0.06, which seems to be a similar issue that some other participants have been facing.I'd be grateful if you could offer some guidance. Could you @Virtual Cell Challenge  please provide some insights into what might be causing this issue and how I can improve my approach? @VCC (Abhinav Adduri) (módosítva)
+2025. augusztus 10., vasárnap 10:00
+
+@VCC (Abhinav Adduri) @Virtual Cell Challenge Hi, I met the same problem when running your code. Can you offer us some solutions? Emergency!
+
+So do I take the non-targeting cells and their values from .X and paste it into the input?
+
+@VCC (Abhinav Adduri)
+
+“I might be missing something, but cell-eval’s log1p detection (utils.py) seems to differ from pdex’s parallel_differential_expression (_utils.py). Because cell-eval calls this function for DEG and fold-change, VCC inputs appearing to be treated as not log-transformed—regardless of preprocessing—could affect the fold-change results, which depend on the log1p setting. Could you confirm the intended behavior?” @VCC (Abhinav Adduri)
+
+I will forward this to the maintainer of the repo and get back to you
+
+@VCC (Abhinav Adduri) @Virtual Cell Challenge Hi, I met the same problem when running your code. Can you offer us some solutions? Emergency!
+
+Hi, it must be a change to state main branch that results in lower performance. I’ll take a look today!
+
+@VCC (Abhinav Adduri)
+
+Yup  the precise modeling choice is up to you. Ultimately what you can use are the non-targeting cells and the perturbation labels
+
+VCC (Abhinav Adduri)
+ gondolatmenetet kezdett: I've been working on reproducing the. Nézz meg minden gondolatmenetet.
+ — 
+2025. 08. 12. 16:59
+2025. augusztus 12., kedd 16:59
+
+Yup  the precise modeling choice is up to you. Ultimately what you can use are the non-targeting cells and the perturbation labels
+
+How should the non-targeting cell gene expression values be put into the input? will it be the same for every perturbation (like taking the avg of all the values)?
+
+VCC (Abhinav Adduri)
+ gondolatmenetet kezdett: Let me double check. Nézz meg minden gondolatmenetet.
+ — 
+2025. 08. 12. 19:03
+2025. augusztus 12., kedd 19:03
+
+Thanks for the challenge!  QQ: Is there a reason to use non-zero median normalisation (sc.normalize_total) instead of 10k target sum? It is much harder to re-normalize other scales to your scale without being extremely careful to have the same cell-set / medians. More importantly, for the adata_real of the validation dataset, is it normalized with the median of only the validation set (and the training set only the median of the training set)? (módosítva)
+2025. július 29., kedd 12:27
+
+This is a design preference.
+For validation and test datasets, the normalization is performed with the median of the corresponding set, which can be estimated from the median UMI numbers that we provided.
+Training, validation, and test datasets have very similar UMI distributions and thus should not affect the prediction performance. (módosítva)
+2025. augusztus 12., kedd 20:17
+
+How should the non-targeting cell gene expression values be put into the input? will it be the same for every perturbation (like taking the avg of all the values)?
+
+@VCC (Abhinav Adduri)
+
+Has anyone had issues with preprocess_infer?
+
+@VCC (Abhinav Adduri) 
+Hello,
+what is the difference of state tx infer and state tx predict in terms of adata_pred output. Their outputs are different (considering the same input). I can also see that the number of non-targeting cells are different. what's the reason for this?
+Thanks in advance
+
+I have recently been analyzing the Differential Expression metrics for the competition. I performed the calculations using cell-eval and pdex, following what I believe to be the standard evaluation pipeline employed in the competition. However, I observed that, on average, over 2,000 genes exhibit differential expression following perturbation compared to pre-perturbation conditions. In contrast, the competition's figure categorizes the perturbed genes into three groups based on the number of differentially expressed genes (DEGs): 0–10, 10–100, and 100–10,000. Notably, my results did not yield any instances with 0–100 DEGs. I would like to ask whether the DEGs shown in the competition's figure were generated using the same differential expression calculation method as that used in the competition. Additionally, how can the discrepancy between the cell-eval results and the representation in the figure be explained?
+
+Congrats.
+
+Looks nice. I have a notebook close to this but, with synthetic datasets as i keep getting empty/ forbidden files even after download. Plus,  colab is really nice.
+Best of luck with your challenge
+
+I have recently been analyzing the Differential Expression metrics for the competition. I performed the calculations using cell-eval and pdex, following what I believe to be the standard evaluation pipeline employed in the competition. However, I observed that, on average, over 2,000 genes exhibit differential expression following perturbation compared to pre-perturbation conditions. In contrast, the competition's figure categorizes the perturbed genes into three groups based on the number of differentially expressed genes (DEGs): 0–10, 10–100, and 100–10,000. Notably, my results did not yield any instances with 0–100 DEGs. I would like to ask whether the DEGs shown in the competition's figure were generated using the same differential expression calculation method as that used in the competition. Additionally, how can the discrepancy between the cell-eval results and the representation in the figure be explained?
+
+weird, using the pdex package, we find many examples yielding 0-100 DEGs
+
+how exactly are you computing the DEGs ?
+
+weird, using the pdex package, we find many examples yielding 0-100 DEGs
+
+I have around 30
+
+But like, I think @ORI_hong was asking that there should be 1/3 DE between 0-10?
+
+do you get the same numbers ?
+
+they said : "Notably, my results did not yield any instances with 0–100 DEGs"
+
+but maybe its a typo
+
+
+
+nice (módosítva)
+2025. augusztus 14., csütörtök 15:17
+
+I forgot how I got this result. Might have mistakenly did normalization and log1p to log1p values..
+
+we have the same result, in theory wilcoxon test is a ranking test so should be normalization invariant
+
+unless I am missing something
+
+Yeah, but it should be raw before normalizing
+
+why ? in theory shouldnt matter no ?
+
+log1p + normalizing + log1p is different from log1p + expm1 + normalizing + log1p
+
+Might not matter
+
+yes but is it in regards to Wilcoxon ?
+
+because all of the functions you describe preserve rank
+
+True
+
+With cell-eval, I also get over 2000 "real" DE genes on average and none of the perturbations yield fewer than 100 DE genes. I assume cell-eval is what is ultimately used in scoring? I haven't tried pdex yet. When I did some QC and ran sc.tl.rank_genes_groups, I got far fewer DE genes, and many perturbations had <100 DE genes.
+
+I believe my situation is the same as nlapier2's; I calculated using the cell-eval execution steps under the vcc parameter, resulting in an average of over two thousand DEGs. I am currently attempting to follow the workflow for DE calculation outlined in the the code of state to see if I can reproduce your results. I might also conduct some experiments to confirm which method is actually used on the leaderboard. Thank you all very much for the discussion! 
+
+worrying that cell-eval doesnt yield the same results as pdex, in theory cell-eval uses pdex
+
+I just ran pdex and I actually did get very similar results to what I got from cell-eval...
+
+which should make sense since cell-eval uses pdex
+
+yeah. now i'm just confused why i'm getting so many more DE genes than you
+
+we are getting the same amount of DE genes I think ! (average 2k) but do you also find 30 or so targets that yield <100 DEGs ?
+
+I've only run it on a subset of perturbations so far (which I extracted from the full competition support set), but the fewest I got was 187, for PMS1, whereas it looks like you got 38. If it's running a one-vs-all test (as opposed to just being versus controls), maybe that explains it? I am currently running it again on all perturbations. (Update: similar results after doing this) (módosítva)
+2025. augusztus 14., csütörtök 20:20
+
+also, of the outputs of cell eval run/score, what is the DES and PDS used by this competition? I was thinking discrimination l1 and de recall and mae. Am I correct?
+
+For DE Score it is "overlap_at_N" in cell-eval
+
+By the way, you can run "cell-eval run {...} --profile vcc" and it will only output the three metrics used in the VCC challenge. I usually do "--profile minimal" though, as it gives you those metrics plus more, and it takes about the same amount of time to run. (módosítva)
+2025. augusztus 14., csütörtök 20:38
+
+My orginal analysis also yielded results close to @nlapier2  and @ORI_hong . However I managed to figure out numbers which agrees with @(: Mathys  and @YP .  So when I ran pdex on all genes and control in one run I got high number of DE but when I ran each gene independently with control (meaning calling pdex 150 times) I get  lower number of DE. (módosítva)
+2025. augusztus 14., csütörtök 20:25
+
+@sendivogius good call! i just tried this and confirmed
+
+A question about getting original cell counts.
+
+Currently, in src/state/_cli/_tx/_preprocess_train.py:
+    adata = ad.read_h5ad(adata_path)
+    sc.pp.normalize_total(adata)
+    sc.pp.log1p(adata)
+I notice scanpy is normalizing the data before log1p transform. As I understand, it makes each cell's total gene expression count be the same. The default value is 10000.
+
+But when I apply a transformation np.expm1 (basically the inverse of log1p transform) to get the original cell count, I get the following total cell count distributions for competition_support_set datasets:
+
+hepg2.h5
+Cell totals - Min: 9193, Max: 17202, Mean: 14408
+First 5 cell totals: [15263 14988 14749 12511 13231]
+
+jurkat.h5
+Cell totals - Min: 9271, Max: 17651, Mean: 14188
+First 5 cell totals: [13609 13566 14674 15008 13285]
+
+k562_gwps.h5
+Cell totals - Min: 7189, Max: 17036, Mean: 13161
+First 5 cell totals: [13317 13340 13425 12337 13187]
+
+k562.h5
+Cell totals - Min: 9652, Max: 17176, Mean: 13513
+First 5 cell totals: [14399 12669 13409 13562 12646]
+
+competition_train.h5
+Cell totals - Min: 19981, Max: 431281, Mean: 56904
+First 5 cell totals: [53551. 23827. 74923. 39549. 37409.]
+
+Why isn't it the same? Shouldn't they all be normalized to 10000?
+
+I am still confused why there are no perturbations with negligible effect (0-10 DE). One explanation might be that they are removed due to "Identifying Training Data from overlapping perturbations with external datasets" but it is suspicious that all of them would be removed
+
+The given percentage of perturbations with 0-10 DEGs was for the aforementioned 2,500 perturbations they performed. Perhaps in the subsequent step of selecting for genes with "diverse phenotypic effects" to get the final 300, they filtered out the negligible effect ones as being mostly uninteresting?
+
+high time to release the leaderboard evaluation code as a notebook. Its only creating a lot of confusion and wasting everyones time. No one has the time to spend precious hours on hacking codebases that might not ever be useful in the future. (módosítva)
+2025. augusztus 14., csütörtök 20:58
+
+My orginal analysis also yielded results close to @nlapier2  and @ORI_hong . However I managed to figure out numbers which agrees with @(: Mathys  and @YP .  So when I ran pdex on all genes and control in one run I got high number of DE but when I ran each gene independently with control (meaning calling pdex 150 times) I get  lower number of DE. (módosítva)
+2025. augusztus 14., csütörtök 20:25
+
+Oh yeah this is how we ran it too (one gene at a time) but wtf this should not matter !! (módosítva)
+2025. augusztus 14., csütörtök 23:21
+
+Its a competition right. If you get it right applying the steps from the state to the vcc data, you should get it right. And if you don't,  no worries,  you can stick around to learn.
+
+high time to release the leaderboard evaluation code as a notebook. Its only creating a lot of confusion and wasting everyones time. No one has the time to spend precious hours on hacking codebases that might not ever be useful in the future. (módosítva)
+2025. augusztus 14., csütörtök 20:58
+
+This is a case of abstraction overload, I also found it unintuitive to understand the layering
+
+cell-eval abstracts pdex that abstracts custom rust code + some multiprocessing etc. (módosítva)
+2025. augusztus 19., kedd 10:14
+
+Of course this is the first year, and this initiative is probably going to transform biology, but it's a good lesson that metrics should be minimalist and hackable, with clear code-level explanations as of exactly how they work and what they should output on a clearly defined benchmark. (módosítva)
+2025. augusztus 14., csütörtök 23:34
+
+Actually in our center, people who have tried using other Arc Institute's tools have ran into the same issues (mainly finetuning evo2 / evo1), layers of abstractions make bugs really hard to understand. Most scientist actually understand torch, hf-models, scanpy, etc. and don't need the boilerplate. Just my 2 cents / feedback, as I said before, this challenge is actually a fantastic initiative for the entire community
+
+A question about getting original cell counts.  Currently, in src/state/_cli/_tx/_preprocess_train.py:     adata = ad.read_h5ad(adata_path)     sc.pp.normalize_total(adata)     sc.pp.log1p(adata) I notice scanpy is normalizing the data before log1p transform. As I understand, it makes each cell's total gene expression count be the same. The default value is 10000.  But when I apply a transformation np.expm1 (basically the inverse of log1p transform) to get the original cell count, I get the following total cell count distributions for competition_support_set datasets:  hepg2.h5 Cell totals - Min: 9193, Max: 17202, Mean: 14408 First 5 cell totals: [15263 14988 14749 12511 13231]  jurkat.h5 Cell totals - Min: 9271, Max: 17651, Mean: 14188 First 5 cell totals: [13609 13566 14674 15008 13285]  k562_gwps.h5 Cell totals - Min: 7189, Max: 17036, Mean: 13161 First 5 cell totals: [13317 13340 13425 12337 13187]  k562.h5 Cell totals - Min: 9652, Max: 17176, Mean: 13513 First 5 cell totals: [14399 12669 13409 13562 12646]  competition_train.h5 Cell totals - Min: 19981, Max: 431281, Mean: 56904 First 5 cell totals: [53551. 23827. 74923. 39549. 37409.]  Why isn't it the same? Shouldn't they all be normalized to 10000?
+
+May I know if all the datasets in the colab notebook are normalized to the same total cell counts?
+
+My orginal analysis also yielded results close to @nlapier2  and @ORI_hong . However I managed to figure out numbers which agrees with @(: Mathys  and @YP .  So when I ran pdex on all genes and control in one run I got high number of DE but when I ran each gene independently with control (meaning calling pdex 150 times) I get  lower number of DE. (módosítva)
+2025. augusztus 14., csütörtök 20:25
+
+Thanks. This reproduced the output of LAD1 16, ANTXR1 25...
+But it is still hard to identify which one was used on the lb evaluation
+
+Thanks. This reproduced the output of LAD1 16, ANTXR1 25... But it is still hard to identify which one was used on the lb evaluation
+
+just quick guess, putting them all inside would compute DE between a certain perturbation gene and all other (149 perturbation + Control) would lead to many more DE than usual.
+
+May I know if all the datasets in the colab notebook are normalized to the same total cell counts?
+
+No, I don't think so. You could try normalizing on raw dataset before filtering 18080 genes though, but this might not work.
+
+No, I don't think so. You could try normalizing on raw dataset before filtering 18080 genes though, but this might not work.
+
+It does not
+
+just quick guess, putting them all inside would compute DE between a certain perturbation gene and all other (149 perturbation + Control) would lead to many more DE than usual.
+
+might be what is going on
+
+In the preprint, section 4.3.2 Training on Cell Sets, the author said that they controlled cell line (batch effect in optional) and created the paired data for training. I wonder what is "cell line" in the context.. is this different from cell type? (módosítva)
+2025. augusztus 16., szombat 9:23
+
+Hi! is there a way to delete a given account? I don't see any option in member's area
+
+My orginal analysis also yielded results close to @nlapier2  and @ORI_hong . However I managed to figure out numbers which agrees with @(: Mathys  and @YP .  So when I ran pdex on all genes and control in one run I got high number of DE but when I ran each gene independently with control (meaning calling pdex 150 times) I get  lower number of DE. (módosítva)
+2025. augusztus 14., csütörtök 20:25
+
+Can also confirm this:
+45 genes for TWF2 run using pdex with all control cells and TWF2 cells only
+16 genes for LAD1 run using pdex with all control cells and LAD1 cells only
+
+When running with pdex with all control cells and TWF2 or LAD1 cells, I get 62 genes DE'ed with LAD1 having 19 and TWF2 having 43.
+
+So we can confirm that running it in a loop where you do 1 gene per iteration, vs just handing the whole h5ad to pdex produces different results.
+
+Can also confirm this: 45 genes for TWF2 run using pdex with all control cells and TWF2 cells only 16 genes for LAD1 run using pdex with all control cells and LAD1 cells only  When running with pdex with all control cells and TWF2 or LAD1 cells, I get 62 genes DE'ed with LAD1 having 19 and TWF2 having 43.  So we can confirm that running it in a loop where you do 1 gene per iteration, vs just handing the whole h5ad to pdex produces different results.
+
+different results when doing the one vs one, and one vs all ?
+
+for obtaining degs ?  So the method used by arc to calculate degs  is one vs one right ?
+
+for obtaining degs ?  So the method used by arc to calculate degs  is one vs one right ?
+
+Yup looks like it!
+
+thanks
+
+also one strange thing i found, for some reason, a  large chunk of the perturbations cause only upregulation ?
+
+robinsayar
+ gondolatmenetet kezdett: also one strange thing i found, for some. Nézz meg minden gondolatmenetet.
+ — 
+2025. 08. 17. 9:40
+2025. augusztus 17., vasárnap 9:40
+
+Okay so I elucided the mystery of different DEGs whether you run this independantly or together
+
+with a bit of help from @Fleetwood
+
+It has to do with the multiple testing correction method used by the vcc-eval (benjamin-hochberg) (módosítva)
+2025. augusztus 17., vasárnap 15:36
+
+I don't have time to introduce why we do multiple test correction, please google or ask AI (módosítva)
+2025. augusztus 17., vasárnap 15:37
+
+The way Benjamin-Hochberg works (will just write BH later) is the following : 
+
+
+you define an alpha threshold, for us we have alpha = 0.05
+,
+
+
+you input m p-values
+,
+
+First, we rank the m p-values in ascending order. 
+
+Then, for each rank we compute the following threshold : (i/m) * alpha
+
+We look for the first p-value at index bh_threshold_index to go over the threshold, i.e. we try to find bh_threshold_index so that : 
+
+pvalue[bh_threshold_index] > (bh_threshold_index)/m  * alpha
+
+For a specific perturbation group (i.e. LAD1 ), the things that can influence this are : 
+
+
+the p values themselves (this is fixed)
+,
+alpha (this is fixed)
+,
+m (depends on how many pvalues)
+,
+i (depends on where our pvalues sit)
+,
+
+so the only thing that matters is the i/m ratio. 
+
+As you add more pvalues (in our case, it means adding more perturbations i.e. each new perturbation adds 18k pvalues), m grows, the threshold becomes lower and it becomes harder to find DEGs. 
+
+However, if you the pvalues you add are very small (close to 0, or 0 themselves), the the rank of your pvalues of interest will go up which means that i will go up. 
+
+That makes the threshold higher thus it is easier to find DEGs. (módosítva)
+2025. augusztus 17., vasárnap 16:11
+
+here , I took two targets, LAD1 and TFW2 , and focused on LAD1 which has 16 DEGs when computing LAD1 vs control. (it is the target yielding the lowest amount of DEGs).
+
+
+
+what you see here is exactly what we expect, TFW2 has more DEGs than LAD1,  so many Wilcoxon test p-values at 0. When you concatenate those p-values and the LAD1 p-values, the index at which non-zero LAD1 p-value appear in the concatenated vector goes up, at a higher rate compared to m
+
+therefore you find more DEGs
+
+ What does this mean for the challenge eval ?  
+
+Main problem is limited computer precision, i.e. lots of p-values when significant are driven to exactly 0.0. 
+
+Thus, targets yielding high numbers of highly significant DEGs (think the METTL genes) will make every other target more likely to find DEGs. 
+
+Which means that every single perturbation impact every other perturbation . 
+
+So literally, models that tend to output significant wilcoxon p-values will automatically find higher number of strong DEGs through FDR correction.
+
+Through challenge metrics, those models will be routed to the much less robust fold change overlap metric. 
+
+To me, it does not make sense that every perturbation impacts every perturbation. FDR correction should be done pairwise, as it is conventionally in scipy.stats through the axis parameter (see https://github.com/scipy/scipy/blob/v1.16.1/scipy/stats/_morestats.py#L4430-L4626 ). 
+
+But I might be missing something, maybe this is intended by @Virtual Cell Challenge ? (módosítva)
+2025. augusztus 17., vasárnap 16:02
+
+the higher this ratio, the easier it is for the test to be significative
+
+@(: Mathys I really enjoyed this writeup. Would you mind sharing the notebook/code of your analysis? I would like to audit it to get up to speed and help you all with this investigation
+
+sure :
+
+ What does this mean for the challenge eval ?    Main problem is limited computer precision, i.e. lots of p-values when significant are driven to exactly 0.0.   Thus, targets yielding high numbers of highly significant DEGs (think the METTL genes) will make every other target more likely to find DEGs.   Which means that every single perturbation impact every other perturbation .   So literally, models that tend to output significant wilcoxon p-values will automatically find higher number of strong DEGs through FDR correction.  Through challenge metrics, those models will be routed to the much less robust fold change overlap metric.   To me, it does not make sense that every perturbation impacts every perturbation. FDR correction should be done pairwise, as it is conventionally in scipy.stats through the axis parameter (see https://github.com/scipy/scipy/blob/v1.16.1/scipy/stats/_morestats.py#L4430-L4626 ).   But I might be missing something, maybe this is intended by @Virtual Cell Challenge ? (módosítva)
+2025. augusztus 17., vasárnap 16:02
+
+some precisions regarding :
+
+To me, it does not make sense that every perturbation impacts every perturbation. FDR correction should be done pairwise, as it is conventionally in scipy.stats through the axis parameter (see https://github.com/scipy/scipy/blob/v1.16.1/scipy/stats/_morestats.py#L4430-L4626 ). 
+
+
+While we often multi-test correct against the entire dataset in single-cell, I feel like this makes the science much less reproducible (i.e. the only way I can compare my DEGs with your DEGs is if we have the exact same set of other perturbations).
+
+has anyone been  able to get the compute from mlfoundry?
+dm
+
+I’m training the baseline model on Google Colab with an A100 GPU, no code changes. Hitting >14 hours for 40,000 steps, while the tutorial video mentions ~2 hours.
+Has anyone else seen this gap? Any ideas what might be causing it? @Virtual Cell Challenge
+
+I’m training the baseline model on Google Colab with an A100 GPU, no code changes. Hitting >14 hours for 40,000 steps, while the tutorial video mentions ~2 hours. Has anyone else seen this gap? Any ideas what might be causing it? @Virtual Cell Challenge
+
+I've experienced something similar. Ran out of compute after 8 hours on A100
+
+Hi! is there a way to delete a given account? I don't see any option in member's area
+
+If you email help@ we can have an administrator take a look.
+
+I’m training the baseline model on Google Colab with an A100 GPU, no code changes. Hitting >14 hours for 40,000 steps, while the tutorial video mentions ~2 hours. Has anyone else seen this gap? Any ideas what might be causing it? @Virtual Cell Challenge
+
+Training run time is dependent on Colab's resources
+
+some precisions regarding : > To me, it does not make sense that every perturbation impacts every perturbation. FDR correction should be done pairwise, as it is conventionally in scipy.stats through the axis parameter (see https://github.com/scipy/scipy/blob/v1.16.1/scipy/stats/_morestats.py#L4430-L4626 ).   While we often multi-test correct against the entire dataset in single-cell, I feel like this makes the science much less reproducible (i.e. the only way I can compare my DEGs with your DEGs is if we have the exact same set of other perturbations).
+
+this is an interesting point/exploration! thanks for sharing @(: Mathys! I spent a bit of time exploring the differences and ended up opening a PR to add pairwise fdr to pdex here: https://github.com/ArcInstitute/pdex/pull/48 and a small gist https://gist.github.com/drbh/d0c78d42adcc34562b242e34b76f80b5 that reproduces the differences in LAD1 and TFW2 mentioned above. It does seem to make sense to do pariwise correction.. however I am still a bio newbie and may not have all of the context. Anyway thanks again for the detailed analysis
+
+I will forward this to the maintainer of the repo and get back to you
+
+Hi Abhinav — following up on my August 12 question about the log1p detection in cell-eval (guess_is_lognorm, https://github.com/ArcInstitute/cell-eval/blob/main/src/cell_eval/utils.py) vs pdex (guess_is_log, https://github.com/ArcInstitute/pdex/blob/main/src/pdex/_utils.py). Any word from the maintainer? Happy to provide extra details if that helps—thanks!
+
+In cell-eval, the pipeline for finding DEGs and computing their fold changes calls pdex’s parallel_differential_expression.  Because the two projects detect log1p differently, fold change may be computed on the wrong scale, which in turn affects the DES score. This especially matters when the predicted DEG list is longer than the ground-truth set, since DES truncates predictions to |DEG_true| by ranking genes on (absolute) fold change.
+Details:
+When inputs (e.g., some VCC training data) are already log1p-transformed, cell-eval detects them as log1p, but the data passed into pdex’s parallel_differential_expression is detected as non-log1p, so fold-change is computed as if the data were raw.
+When inputs are raw counts, cell-eval classifies them as non-log1p and applies log1p, but pdex’s parallel_differential_expression still detects them as non-log1p, again producing fold changes on the unintended scale.
+In cell-eval, the call to parallel_differential_expression does not pass an explicit log1p flag, so pdex falls back to its internal detection logic, which can disagree with cell-eval’s detection. @VCC (Abhinav Adduri) (módosítva)
+2025. augusztus 19., kedd 10:04
+
+Hi Abhinav — following up on my August 12 question about the log1p detection in cell-eval (guess_is_lognorm, https://github.com/ArcInstitute/cell-eval/blob/main/src/cell_eval/utils.py) vs pdex (guess_is_log, https://github.com/ArcInstitute/pdex/blob/main/src/pdex/_utils.py). Any word from the maintainer? Happy to provide extra details if that helps—thanks!  In cell-eval, the pipeline for finding DEGs and computing their fold changes calls pdex’s parallel_differential_expression.  Because the two projects detect log1p differently, fold change may be computed on the wrong scale, which in turn affects the DES score. This especially matters when the predicted DEG list is longer than the ground-truth set, since DES truncates predictions to |DEG_true| by ranking genes on (absolute) fold change. Details: When inputs (e.g., some VCC training data) are already log1p-transformed, cell-eval detects them as log1p, but the data passed into pdex’s parallel_differential_expression is detected as non-log1p, so fold-change is computed as if the data were raw. When inputs are raw counts, cell-eval classifies them as non-log1p and applies log1p, but pdex’s parallel_differential_expression still detects them as non-log1p, again producing fold changes on the unintended scale. In cell-eval, the call to parallel_differential_expression does not pass an explicit log1p flag, so pdex falls back to its internal detection logic, which can disagree with cell-eval’s detection. @VCC (Abhinav Adduri) (módosítva)
+2025. augusztus 19., kedd 10:04
+
+messaged you
+
+also one strange thing i found, for some reason, a  large chunk of the perturbations cause only upregulation ?
+
+how do you come to this conclusion ?
+
+high time to release the leaderboard evaluation code as a notebook. Its only creating a lot of confusion and wasting everyones time. No one has the time to spend precious hours on hacking codebases that might not ever be useful in the future. (módosítva)
+2025. augusztus 14., csütörtök 20:58
+
+We understand some folks are experiencing a little frustration in the challenge. 
+
+Remember that there are a number resources. For example-
+The cell-eval README file contains code snippets that can be cut and paste into a notebook:
+https://github.com/ArcInstitute/cell-eval?tab=readme-ov-file#run
+https://github.com/ArcInstitute/cell-eval?tab=readme-ov-file#score
+And an example of using cell-eval was also provided in the STATE notebook. https://colab.research.google.com/drive/1QKOtYP7bMpdgDJEipDxaJqOchv7oQ-_l (módosítva)
+2025. augusztus 19., kedd 20:36
+
+Hi I have a related request regarding evaluation metrics: could the VCC team consider releasing the actual evaluation metrics functions or a notebook.  Currently, it seems many are trying to understand and reproduce the evaluation calculations. I know the website already points to cell-eval, but if I understand correctly, that is a more complex package and still one is always guessing which function (if any) in the package 100% matches the vcc evaluation. I think releasing the evaluation functions can be supportive and actually encourage fair competition about the core of the challenge.
+
+Here are the cell-eval functions for the 3 competition metrics -
+mae: https://github.com/ArcInstitute/cell-eval/blob/4b6a7119f6966cc1fe21609959063b47b6af044b/src/cell_eval/metrics/_anndata.py#L45-L51
+
+discrimination_score_l1: https://github.com/ArcInstitute/cell-eval/blob/4b6a7119f6966cc1fe21609959063b47b6af044b/src/cell_eval/metrics/_anndata.py#L129-L198
+
+overlap_at_n: https://github.com/ArcInstitute/cell-eval/blob/4b6a7119f6966cc1fe21609959063b47b6af044b/src/cell_eval/metrics/_de.py#L12-L29
+
+I noticed that the data in the official Colab has only been processed with log1p and hasn’t been normalized. How should we preprocess the data we submit to the competition? (My validation template data was generated using this notebook
+). During validation, should both normalization and log1p be applied? And then can we submit this version directly to the VCC competition website?@Virtual Cell Challenge
+
+https://github.com/ArcInstitute/cell-eval/blob/main/tutorials/vcc/vcc.ipynb
+
+Here are the cell-eval functions for the 3 competition metrics - mae: https://github.com/ArcInstitute/cell-eval/blob/4b6a7119f6966cc1fe21609959063b47b6af044b/src/cell_eval/metrics/_anndata.py#L45-L51  discrimination_score_l1: https://github.com/ArcInstitute/cell-eval/blob/4b6a7119f6966cc1fe21609959063b47b6af044b/src/cell_eval/metrics/_anndata.py#L129-L198  overlap_at_n: https://github.com/ArcInstitute/cell-eval/blob/4b6a7119f6966cc1fe21609959063b47b6af044b/src/cell_eval/metrics/_de.py#L12-L29
+
+It would be quite useful to get some clarification if you are computing DE genes for the WHOLE training set (i.e all targets vs control), or doing the pairwise computation (one target vs control in a loop).
+
+The numbers in the attached image suggest the latter, but for the leaderboard it is unknown
+
+It would be quite useful to get some clarification if you are computing DE genes for the WHOLE training set (i.e all targets vs control), or doing the pairwise computation (one target vs control in a loop).  The numbers in the attached image suggest the latter, but for the leaderboard it is unknown
+
+And could you clarify how the perturbation bin percentages are calculated? Their sum (35%, 29%, and 46%) exceeds 100%.
+
+When generating the validation template using the Validation Set pert_counts_Validation.csv, what is the purpose of median_umi_per_cell? I noticed it doesn’t seem to be used in the official notebook (https://github.com/ArcInstitute/cell-eval/blob/main/tutorials/vcc/vcc.ipynb) 
+Also, besides sc.pp.log1p(adata), is it necessary to apply sc.pp.normalize_total(adata) as well?
+
+If we directly and simultaneously scale the training set and validation set using the median_umi_per_cell value provided in pert_counts_Validation.csv instead of using the median of the dataset itself for scaling, will the model's predictions become more accurate?
+
+I agree with @joe , could the organizers explain how exactly the hidden val/test set that we are compared against is processed ? 
+
+Is it log1p transformed ? normalized against library size ? etc. (módosítva)
+2025. augusztus 21., csütörtök 12:42
+
+y_k^hat is a vector that denotes the expression of 18080 genes.
+
+how do you come to this conclusion ?
+
+I ran DEG computation of subset containing cells of one perturbation and control cells, over all perturbations, and basically all of them had +ve logfold changes (módosítva)
+2025. augusztus 22., péntek 9:58
+
+For DEG computation, do you use the one of the challenge ?
+
+For the result of cell-eval, the fold changes are not log-transformed, some of them have fold change <1
+
+For DEG computation, do you use the one of the challenge ?
+
+no i used scanpy for the computation
+
+@Virtual Cell Challenge Why is it that when I do expm1 (the inverse of log1p transform) on competition_train.h5, I get sensible integer values, but when I do it on the other h5 files, they have non integer values like 2.82? I thought it was due to normalization, but the total cell counts for each cell in the h5 files are not even the same, so it seems non normalized.
+
+no i used scanpy for the computation
+
+which method in scanpy ? also wilcoxon ? Or did you use the DEGs computed by cell-eval and then did fold change using scanpy ?
+
+which method in scanpy ? also wilcoxon ? Or did you use the DEGs computed by cell-eval and then did fold change using scanpy ?
+
+the rank_genes_groups method in scanpy, and yes wilcoxon
+
+it computes a set of statistics for degs
+
+https://scanpy.readthedocs.io/en/1.10.x/generated/scanpy.tl.rank_genes_groups.html
+
+hmm weird
+
+we should be getting the same results
+
+between challenge and this
+
+In https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge it says that MAE: Global expression error[0, ∞), Low for models that ignore DEs but fit mean. Wondering if this is based on observation or is this mathematically supported?
+
+robinsayar
+ gondolatmenetet kezdett: It would be quite useful to get some. Nézz meg minden gondolatmenetet.
+ — 
+2025. 08. 23. 12:59
+2025. augusztus 23., szombat 12:59
+
+Hey guys, I've started training models and wanted to submit my first run. To my shagrin, I noticed I have to do it through the web interface. This means I have to transfer my data from HPC to my PC and then do the upload. Is there a way I can POST the data somehow?
+
+Hey guys, I've started training models and wanted to submit my first run. To my shagrin, I noticed I have to do it through the web interface. This means I have to transfer my data from HPC to my PC and then do the upload. Is there a way I can POST the data somehow?
+
+hey, unfortunately not, but you can do cell-prep on HPC and then transfer to local because cell-prep compresses the object to ~3 Gb
+
+gtech
+ gondolatmenetet kezdett: cell-eval/src/cell_eval/metrics/_anndata.... Nézz meg minden gondolatmenetet.
+ — 
+2025. 08. 25. 15:07
+2025. augusztus 25., hétfő 15:07
+
+I'm concerned that the DE test may be pretty noisy. When I try splitting the cells from each perturbation equally into two adata objects and then evaluating one against the other, i.e. a technical replicate, the MAE and perturbation discrimination scores are outstanding but the DE overlap is only ~0.39 on average (across perturbations) with median ~0.37. It is very highly correlated with the number of "real" DE genes; perturbations with few DE genes do quite poorly. Testing one perturbation at a time as suggested previously reduces this effect but not by that much, e.g. the DE overlap score for PMS1 goes up from ~0.07 to ~0.12. It seems like those DE genes are mostly noise. For example, I saw genes where there were 0-1 total reads in control cells and 1-2 total reads in perturbed cells, being called as DE genes with extremely low FDR (see some examples of the top DE genes for PMS1 below). Not sure if this is related to some of the aforementioned issues. Has anyone else observed anything similar?
+
+target      reference   feature  target_mean  reference_mean  percent_change  fold_change       p_value   statistic           fdr
+111176   PMS1  non-targeting    ORMDL1     0.350649        2.234501       -0.843075     0.156925  0.000000e+00    875088.5  0.000000e+00
+111177   PMS1  non-targeting      PMS1     0.146309        1.650667       -0.911364     0.088636  0.000000e+00   1452192.0  0.000000e+00
+111175   PMS1  non-targeting   OSGEPL1     0.510509        0.654360       -0.219835     0.780165  1.338897e-16  18056820.0  6.093509e-15
+123597   PMS1  non-targeting    ADGRE1     0.001260        0.000018       68.410912    69.410912  2.019955e-11  21034426.0  6.120084e-10
+126378   PMS1  non-targeting    OR13H1     0.002521        0.000163       14.424645    15.424645  9.789569e-10  21068202.0  2.504123e-08
+117909   PMS1  non-targeting    OR52B6     0.000630        0.000000             NaN    20.000000  3.839138e-09  21015888.0  9.203215e-08
+
+is there an example of exactly how the score is calculated on the validation set? all the ipynb tutorials just prepare the file for submission, or calculate metrics that don't line up with what's on the website:
+
+Index(['statistic', 'overlap_at_N', 'overlap_at_50', 'overlap_at_100',
+       'overlap_at_200', 'overlap_at_500', 'precision_at_N', 'precision_at_50',
+       'precision_at_100', 'precision_at_200', 'precision_at_500',
+       'de_spearman_sig', 'de_direction_match', 'de_spearman_lfc_sig',
+       'de_sig_genes_recall', 'de_nsig_counts_real', 'de_nsig_counts_pred',
+       'pr_auc', 'roc_auc', 'pearson_delta', 'mse', 'mae', 'mse_delta',
+       'mae_delta', 'discrimination_score_l1', 'discrimination_score_l2',
+       'discrimination_score_cosine', 'pearson_edistance',
+       'clustering_agreement'],
+
+
+if we want to run cross validation locally, it's crucial that our scoring calculations line up with what's being used on the leaderboard
+
+I'm concerned that the DE test may be pretty noisy. When I try splitting the cells from each perturbation equally into two adata objects and then evaluating one against the other, i.e. a technical replicate, the MAE and perturbation discrimination scores are outstanding but the DE overlap is only ~0.39 on average (across perturbations) with median ~0.37. It is very highly correlated with the number of "real" DE genes; perturbations with few DE genes do quite poorly. Testing one perturbation at a time as suggested previously reduces this effect but not by that much, e.g. the DE overlap score for PMS1 goes up from ~0.07 to ~0.12. It seems like those DE genes are mostly noise. For example, I saw genes where there were 0-1 total reads in control cells and 1-2 total reads in perturbed cells, being called as DE genes with extremely low FDR (see some examples of the top DE genes for PMS1 below). Not sure if this is related to some of the aforementioned issues. Has anyone else observed anything similar?  target      reference   feature  target_mean  reference_mean  percent_change  fold_change       p_value   statistic           fdr 111176   PMS1  non-targeting    ORMDL1     0.350649        2.234501       -0.843075     0.156925  0.000000e+00    875088.5  0.000000e+00 111177   PMS1  non-targeting      PMS1     0.146309        1.650667       -0.911364     0.088636  0.000000e+00   1452192.0  0.000000e+00 111175   PMS1  non-targeting   OSGEPL1     0.510509        0.654360       -0.219835     0.780165  1.338897e-16  18056820.0  6.093509e-15 123597   PMS1  non-targeting    ADGRE1     0.001260        0.000018       68.410912    69.410912  2.019955e-11  21034426.0  6.120084e-10 126378   PMS1  non-targeting    OR13H1     0.002521        0.000163       14.424645    15.424645  9.789569e-10  21068202.0  2.504123e-08 117909   PMS1  non-targeting    OR52B6     0.000630        0.000000             NaN    20.000000  3.839138e-09  21015888.0  9.203215e-08
+
+yeaah we find the same thing, but 
+
+there is big cell heterogenicity, if you are splitting at random, I reckon most DE methods should find different hits.
+,
+wilcoxon test with 0 inflated values is probably very noisy, but at the same time robinson et al (2018 I think) shows that it is actually a fairly good metric
+,
+
+is there an example of exactly how the score is calculated on the validation set? all the ipynb tutorials just prepare the file for submission, or calculate metrics that don't line up with what's on the website: Index(['statistic', 'overlap_at_N', 'overlap_at_50', 'overlap_at_100',        'overlap_at_200', 'overlap_at_500', 'precision_at_N', 'precision_at_50',        'precision_at_100', 'precision_at_200', 'precision_at_500',        'de_spearman_sig', 'de_direction_match', 'de_spearman_lfc_sig',        'de_sig_genes_recall', 'de_nsig_counts_real', 'de_nsig_counts_pred',        'pr_auc', 'roc_auc', 'pearson_delta', 'mse', 'mae', 'mse_delta',        'mae_delta', 'discrimination_score_l1', 'discrimination_score_l2',        'discrimination_score_cosine', 'pearson_edistance',        'clustering_agreement'],  if we want to run cross validation locally, it's crucial that our scoring calculations line up with what's being used on the leaderboard
+
+From what I found, the score is simply cell-eval score with VCC profile between two raw or log1p transformed .h5ad files (módosítva)
+2025. augusztus 26., kedd 9:00
+
+From what I found, the score is simply cell-eval score with VCC profile between two raw or log1p transformed .h5ad files (módosítva)
+2025. augusztus 26., kedd 9:00
+
+So, is it necessary to go through the normalization process (using median_umi_per_cell or the built-in sc.pp.normalize_total(adata) function)?
+
+So, is it necessary to go through the normalization process (using median_umi_per_cell or the built-in sc.pp.normalize_total(adata) function)?
+
+no, do not normalize before
+
+I think it hurts performance, but you can test by running cell-eval score locally
+
+just make two tiny identical .h5ad files and then run cell-eval score once with both identical and another time with one .h5ad file normalized
+
+you should see that the noramlized one doesnt give perfect results
+
+you should see that the noramlized one doesnt give perfect results
+
+I think that's fully expected. But I believe your solution (whatever it is) would need the data to be normalized both before (using sum of UMI counts and median UMI counts per cell for any given perturbation) and after (using the already provided median UMI per cell). Well, at least, this is what I'm doing  anyone else? (módosítva)
+2025. augusztus 26., kedd 16:42
+
+is there an example of exactly how the score is calculated on the validation set? all the ipynb tutorials just prepare the file for submission, or calculate metrics that don't line up with what's on the website: Index(['statistic', 'overlap_at_N', 'overlap_at_50', 'overlap_at_100',        'overlap_at_200', 'overlap_at_500', 'precision_at_N', 'precision_at_50',        'precision_at_100', 'precision_at_200', 'precision_at_500',        'de_spearman_sig', 'de_direction_match', 'de_spearman_lfc_sig',        'de_sig_genes_recall', 'de_nsig_counts_real', 'de_nsig_counts_pred',        'pr_auc', 'roc_auc', 'pearson_delta', 'mse', 'mae', 'mse_delta',        'mae_delta', 'discrimination_score_l1', 'discrimination_score_l2',        'discrimination_score_cosine', 'pearson_edistance',        'clustering_agreement'],  if we want to run cross validation locally, it's crucial that our scoring calculations line up with what's being used on the leaderboard
+
+there is an overview of the scoring methology on the evaluation page (https://virtualcellchallenge.org/evaluation) but we otherwise are not sharing details about the calculations
+
+I see from chat history that the baseline method that is used for score normalization has been previously shared in ⁠📌-resources-and-support , however, for some reason I do not have the permissions to read past messages in that channel. @Virtual Cell Challenge could you please help with that?
+
+Sorry if this was already answered. It looks like cell-eval score requires the baseline agg_results.csv file, which should come from cell-eval run. Is there a way to obtain this file?
+
+Sorry if this was already answered. It looks like cell-eval score requires the baseline agg_results.csv file, which should come from cell-eval run. Is there a way to obtain this file?
+
+cell-eval run baseline
+
+cell-eval run baseline -h to print out the help menu for all the arguments
+
+Hi, there! I'm pretty new to this competition and I'm quite confused about a few things. Could someone help me out?
+
+I've noticed many people on the leaderboard are using state models, but their rankings vary significantly. When I followed the Colab tutorial, I found that my validation loss didn't decrease much. Later in the training, the validation loss would stop decreasing and even start to rise slightly. I tried increasing the number of training steps and got a lower validation loss, but this actually resulted in a worse rank on the leaderboard.
+
+I know the tutorial uses the HepG2 cell type by default, so I tried a different approach. I focused on the perturbation genes that overlap with the validation set, randomly selecting 20% of them, plus 20% of the non-targeting controls, to form my validation set, with the rest as the training set. However, the performance was still poor.
+
+I attempted to change my evaluation metric from validation loss to the PDS, DES, and MAE scores obtained from cell evaluation. However, I observed that as the training steps increased, these scores continuously got worse instead of better.
+
+I'm really struggling with this. Even when I have two different models, or two different setups for the same model, I can't figure out which one is better. I lack a clear indicator for evaluation, and besides relying on the official leaderboard, I can't find any other way to compare them.
+
+Sorry if this was already answered. It looks like cell-eval score requires the baseline agg_results.csv file, which should come from cell-eval run. Is there a way to obtain this file?
+
+you don't have to use the baseline right ?
+
+I noticed that the data in the official Colab has only been processed with log1p and hasn’t been normalized. How should we preprocess the data we submit to the competition? (My validation template data was generated using this notebook ). During validation, should both normalization and log1p be applied? And then can we submit this version directly to the VCC competition website?@Virtual Cell Challenge
+
+For metrics calculations, it's normalized with the default scanpy.pp.normalize_total function (i.e. each cell is normalized to the median of total counts for all cells in the Training set), and then logarithmized with sc.pp.log1p function.
+
+I see from chat history that the baseline method that is used for score normalization has been previously shared in ⁠📌-resources-and-support , however, for some reason I do not have the permissions to read past messages in that channel. @Virtual Cell Challenge could you please help with that?
+
+can you send an email to help@virtualcellchallenge.org and we can help you troubleshoot this? thanks!
+
+I’m having the same issue, I think a few others are as well
+
+Should we all just email?
+
+For metrics calculations, it's normalized with the default scanpy.pp.normalize_total function (i.e. each cell is normalized to the median of total counts for all cells in the Training set), and then logarithmized with sc.pp.log1p function.
+
+could you please let us know how it works in the challenge evaluation?
+That is, it seems that the "ground truth" is normalized separately from our submission. Does the ground truth include all 200/300 perturbations or only training set? including non-targeting? Normalization of our submission I assume then is completely up to us, since our submission might include varying number of cells and/or perturbations
+
+Hi, there! I'm pretty new to this competition and I'm quite confused about a few things. Could someone help me out?  I've noticed many people on the leaderboard are using state models, but their rankings vary significantly. When I followed the Colab tutorial, I found that my validation loss didn't decrease much. Later in the training, the validation loss would stop decreasing and even start to rise slightly. I tried increasing the number of training steps and got a lower validation loss, but this actually resulted in a worse rank on the leaderboard.  I know the tutorial uses the HepG2 cell type by default, so I tried a different approach. I focused on the perturbation genes that overlap with the validation set, randomly selecting 20% of them, plus 20% of the non-targeting controls, to form my validation set, with the rest as the training set. However, the performance was still poor.  I attempted to change my evaluation metric from validation loss to the PDS, DES, and MAE scores obtained from cell evaluation. However, I observed that as the training steps increased, these scores continuously got worse instead of better.  I'm really struggling with this. Even when I have two different models, or two different setups for the same model, I can't figure out which one is better. I lack a clear indicator for evaluation, and besides relying on the official leaderboard, I can't find any other way to compare them.
+
+Hi @ZYW, could you share some more details on your training procedure? Due to a recent change the models require more optimization steps to converge. Any detail you provide (Val loss reached, at what step it went up, generalization gap vs train loss) will help us triage your issue. Thanks!
+
+Hi @ZYW, could you share some more details on your training procedure? Due to a recent change the models require more optimization steps to converge. Any detail you provide (Val loss reached, at what step it went up, generalization gap vs train loss) will help us triage your issue. Thanks!
+
+How many iterations does the baseline take to train after this change?
+
+How many iterations does the baseline take to train after this change?
+
+120,000 iterations seems to be a safe bet across random seeds. You should see a phase transition in the Val loss, where it suddenly starts to drop much more rapidly. You can play with the learning rate as another knob here
+
+120,000 iterations seems to be a safe bet across random seeds. You should see a phase transition in the Val loss, where it suddenly starts to drop much more rapidly. You can play with the learning rate as another knob here
+
+And it achieves the 0.122?
+
+120,000 iterations seems to be a safe bet across random seeds. You should see a phase transition in the Val loss, where it suddenly starts to drop much more rapidly. You can play with the learning rate as another knob here
+
+what final val loss do you get using the starter.toml? I'm experimenting with a larger learning rate
+
+HI Folks! can i submit results a command-line tool instead of  downloading and uploading the the vcc files ?
+Asking since I am renting GPUs on vast.ai and my home internet connection sucks  (módosítva)
+2025. augusztus 28., csütörtök 2:32
+
+Apparently no CLI to upload. The question seems to come back regularly, so we may get it at some point 
+
+A bit of reverse engineering shows the binary is sent to some Google storage. Perhaps a way to use the link directly, but auth in the way (I did not try much  )
+
+ouch: no CLI. let's bug the organizers some more about it: 
+@VCC (Abhinav Adduri) can we please get a CLI to upload the results ?
+
+@Mehul Sampat In the meantime there was a recent suggestion: ⁠support-questions⁠ (módosítva)
+2025. augusztus 28., csütörtök 2:40
+
+ouch: no CLI. let's bug the organizers some more about it:  @VCC (Abhinav Adduri) can we please get a CLI to upload the results ?
+
+I did not work on this part, but happy to relay internally.
+
+I am trying to maximize the GPU utilization (since renting GPUs is expensive). But you see the max I can get is 80% (see screenshot) and there are intervals where it is less than 20% .. I increased the number of workers: data.kwargs.num_workers=16 but it does not help as much as I would like. Any suggestions to improve the utilization in this domain ? 
+
+For reference, for Medical Imaging we have options like CacheDataset from NVIDIA's MONAI framework:  https://docs.monai.io/en/stable/data.html#cachedataset (módosítva)
+2025. augusztus 28., csütörtök 3:18
+
+HI Folks! can i submit results a command-line tool instead of  downloading and uploading the the vcc files ? Asking since I am renting GPUs on vast.ai and my home internet connection sucks  (módosítva)
+2025. augusztus 28., csütörtök 2:32
+
+We have definitely heard the desire for this option. We aren't able to do it this time, but we expect the Challenge to be an annual competition and we have this on our list as a possibility for next year. Thanks!
+
+Hi @ZYW, could you share some more details on your training procedure? Due to a recent change the models require more optimization steps to converge. Any detail you provide (Val loss reached, at what step it went up, generalization gap vs train loss) will help us triage your issue. Thanks!
+
+Thank you for your reply!
+
+I remember training a model in early August by following the tutorial exactly, without any modifications. At that time, I noticed that the final.ckpt used in the tutorial was the checkpoint from the very last step. So, I made another submission using last.ckpt, which corresponded to the lowest validation loss. The validation loss was only 9.57, and its performance was exceptionally high, achieving a score of 0.102.
+
+Unfortunately, I accidentally deleted this model later. I only recall that the best result was achieved around epoch 110, which was approximately step=23,000.
+
+Recently, I tried again on the latest state repository. I increased max_steps to 60,000 and set both training.ckpt_every_n_steps and training.val_freq to 1000. This time, the best validation loss was lower at 9.41, but the score was only 0.066, which is significantly worse.
+
+Could you tell me what changes were made that might have caused this?
+
+We have definitely heard the desire for this option. We aren't able to do it this time, but we expect the Challenge to be an annual competition and we have this on our list as a possibility for next year. Thanks!
+
+For the CLI upload, if you could allow us to run the put requests and then query the metrics API, it could be pretty easy to achieve. You can get most of the required links by uploading a small file, but you can't restart that job and it shows up as failed.
+
+We would basically just need the persistent link generated by the website to be displayed and the job to only start once it sees it put into the drive (as it does now)
+
+It shouldn't interfere with your one submission a day requirement either, as that is checked before that link is ever generated
+
+could you please let us know how it works in the challenge evaluation? That is, it seems that the "ground truth" is normalized separately from our submission. Does the ground truth include all 200/300 perturbations or only training set? including non-targeting? Normalization of our submission I assume then is completely up to us, since our submission might include varying number of cells and/or perturbations
+
+Yes, I was wondering about that too. According to VCC, the test set should be normalized based on the training set, which feels quite unreasonable. Why not normalize everything to 1e4, or to the median_umi_per_cell provided in “pert_counts_Validation.csv”? Not clarifying this seems rather confusing. @VCC (Alden Woodrow)
+
+Also, I’d like to ask
+: is the hepg2 dataset provided in Colab only processed with log1p?
+I compared the original hepg2 with the Colab-provided hepg2, and applied the following:
+--“normalization + log1p”
+--“inverse log1p + normalization + log1p”
+ The X matrices in each case are shown in the figures.
+
+For metrics calculations, it's normalized with the default scanpy.pp.normalize_total function (i.e. each cell is normalized to the median of total counts for all cells in the Training set), and then logarithmized with sc.pp.log1p function.
+
+Want to also add something here: I looked through the cell-eval code a bit, and I noticed the _convert_to_normlog function in _evaluator.py. The way it decides whether to do norm-log only depends on if the input is integer or not. So, like it says,  it will not be able to distinguish between normalized input and log-normalized input. But my worry is it also can’t tell the difference between log input and log-normalized input.
+
+So with the support set data (it seems like h1ESC raw data is log1p and other cell types use some kind of norm+log1p), the model was trained on log1p scale data for h1 cells, at least. When we put the predictions through cell-eval prep, it basically does nothing since it sees it as norm-log already. I tried to norm-log the data myself, the results were worse than just using what’s in the support set, which is kinda confusing.
+
+So, yeah, agreed with what was discussed above, and it’s important to know how the data was processed during evaluation. Would really appreciate hearing your thoughts on this!  @VCC (Alden Woodrow) (módosítva)
+2025. augusztus 28., csütörtök 17:25
+
+I see from chat history that the baseline method that is used for score normalization has been previously shared in ⁠📌-resources-and-support , however, for some reason I do not have the permissions to read past messages in that channel. @Virtual Cell Challenge could you please help with that?
+
+Thank you for flagging that ⁠📌-resources-and-support was not visible for you! We've changed the settings so all members can read message history in that channel and in ⁠general. Please let us know if you can see all of the links now.
+
+Thank you for flagging that ⁠📌-resources-and-support was not visible for you! We've changed the settings so all members can read message history in that channel and in ⁠general. Please let us know if you can see all of the links now.
+
+sadly, all I can see is
+
+sadly, all I can see is
+
+Thank you for the screenshot! I tried reposting the message and pinning it with the new permission settings applied. I hope that solves the issue for you and future competitors.
+
+Want to also add something here: I looked through the cell-eval code a bit, and I noticed the _convert_to_normlog function in _evaluator.py. The way it decides whether to do norm-log only depends on if the input is integer or not. So, like it says,  it will not be able to distinguish between normalized input and log-normalized input. But my worry is it also can’t tell the difference between log input and log-normalized input.  So with the support set data (it seems like h1ESC raw data is log1p and other cell types use some kind of norm+log1p), the model was trained on log1p scale data for h1 cells, at least. When we put the predictions through cell-eval prep, it basically does nothing since it sees it as norm-log already. I tried to norm-log the data myself, the results were worse than just using what’s in the support set, which is kinda confusing.  So, yeah, agreed with what was discussed above, and it’s important to know how the data was processed during evaluation. Would really appreciate hearing your thoughts on this!  @VCC (Alden Woodrow) (módosítva)
+2025. augusztus 28., csütörtök 17:25
+
+The evaluator can distinguish two options: integer input, or non-integer input. In the former case, it will assume that input matrix contain counts, and normalize then logarithmize it. In the latter case, it will assume that all transformations are already done by the user and will not perform any transformations.
+So, in other words, users have only two options: provide integer counts (the evaluator will normalize/logarithmize them), or provide fully transformed values (evaluator does nothing).
+
+Thank you for the screenshot! I tried reposting the message and pinning it with the new permission settings applied. I hope that solves the issue for you and future competitors.
+
+thank you! I can see the reposted message now, just not any previous ones
+
+To make sure - in perturbation discrimination score we compare each of the predicted perturbation effects to all of the perturbations, including those present in the training set?
+
+To make sure - in perturbation discrimination score we compare each of the predicted perturbation effects to all of the perturbations, including those present in the training set?
+
+Hi Artur! Predictions are only compared to the perturbations in the validation set
+
+For metrics calculations, it's normalized with the default scanpy.pp.normalize_total function (i.e. each cell is normalized to the median of total counts for all cells in the Training set), and then logarithmized with sc.pp.log1p function.
+
+Thanks for the reply! So just to check — when we follow the state notebook, do we actually need to recompute a proper norm-log matrix from the preds?   Kinda wondering if that’s what causes the performance gap people see between the notebook and the official baseline.
+
+Hey everyone!  Just wrote a blog to simple breakdown of the challenge’s training and validation data with examples...great for newbies like me!  Check it out and let me know what you think: https://dirtyhands.hashnode.dev/understanding-the-virtual-cell-challenge-a-beginners-guide-to-predicting-gene-expression
+Would love some feedback.
+Thanks!
+
+Hi everyone, 
+
+One thing that has been helpful for me is frequently manually exploring the data/predictions throughout model development. However, I’ve found that the size and dimensionality of these datasets makes the analysis process feel laggy.  Further, I’m memory-constrained (both computationally and mentally  ) 
+
+To help address this, I wrote a small snippet called “scplode” to convert the h5 files to memory-maps, while still keeping the similar API of anndata. I’ve taken a crack at packaging it up just so that others can use it too. Feel free to try it out - and I would also love to get feedback. I’m new to single cell, so I’m not sure of the whole landscape of alternative solutions to this problem. 
+
+Although I haven't recently been using the State model, I also found that scplode significantly speeds up the data loading in the State’s cell-load dataloader (~2x but likely depends on a number of factors). I've included an example of this evaluation in the example 02 notebook. Again, I might be missing something, so would love to get feedback. 
+
+scplode: https://github.com/rkita/scplode
+
+Cheers,
+Ryo
+
+Hi Artur! Predictions are only compared to the perturbations in the validation set
+
+Thank you for the response! once again to confirm, so PDS here will only consider validation now, and for test set only test set, i.e. N in this formula is now 50 and will be 100 in the test set. Also, what data is considered for median count normalization per cell for validation/test - is it all of the training control and the 50/100 val/test samples respectively only? (módosítva)
+2025. augusztus 29., péntek 18:30
+
+Hi everyone,   One thing that has been helpful for me is frequently manually exploring the data/predictions throughout model development. However, I’ve found that the size and dimensionality of these datasets makes the analysis process feel laggy.  Further, I’m memory-constrained (both computationally and mentally  )   To help address this, I wrote a small snippet called “scplode” to convert the h5 files to memory-maps, while still keeping the similar API of anndata. I’ve taken a crack at packaging it up just so that others can use it too. Feel free to try it out - and I would also love to get feedback. I’m new to single cell, so I’m not sure of the whole landscape of alternative solutions to this problem.   Although I haven't recently been using the State model, I also found that scplode significantly speeds up the data loading in the State’s cell-load dataloader (~2x but likely depends on a number of factors). I've included an example of this evaluation in the example 02 notebook. Again, I might be missing something, so would love to get feedback.   scplode: https://github.com/rkita/scplode  Cheers, Ryo
+
+1st place and still open sourcing things, beautiful
+
+Hi everyone,   One thing that has been helpful for me is frequently manually exploring the data/predictions throughout model development. However, I’ve found that the size and dimensionality of these datasets makes the analysis process feel laggy.  Further, I’m memory-constrained (both computationally and mentally  )   To help address this, I wrote a small snippet called “scplode” to convert the h5 files to memory-maps, while still keeping the similar API of anndata. I’ve taken a crack at packaging it up just so that others can use it too. Feel free to try it out - and I would also love to get feedback. I’m new to single cell, so I’m not sure of the whole landscape of alternative solutions to this problem.   Although I haven't recently been using the State model, I also found that scplode significantly speeds up the data loading in the State’s cell-load dataloader (~2x but likely depends on a number of factors). I've included an example of this evaluation in the example 02 notebook. Again, I might be missing something, so would love to get feedback.   scplode: https://github.com/rkita/scplode  Cheers, Ryo
+
+This is super cool just wish to know does the acceleration also works for random access? Specifically instead of adata[0:1000] does it also accelerate adata[random_ind]
+
+This is super cool just wish to know does the acceleration also works for random access? Specifically instead of adata[0:1000] does it also accelerate adata[random_ind]
+
+It does! I was a bit surprised by this too. In my example 01 notebook, I compare random vs contiguous. And it performed significantly better on random compared to anndata, but about the same with contiguous.
+
+It does! I was a bit surprised by this too. In my example 01 notebook, I compare random vs contiguous. And it performed significantly better on random compared to anndata, but about the same with contiguous.
+
+Also please note, performance depends alot on context! So your mileage may vary. That's why I kept the API very similar to regular anndata, so you can quickly switch between depending on what you're experiencing.
+
+@ryo awesome to see, thanks for open sourcing!! h5py has been a pretty big limiter for us (and I'm sure others were seeing spiky GPU util with it as well)
+
+does this memory mapping at any point load the entire expression matrix into memory?
+
+does this memory mapping at any point load the entire expression matrix into memory?
+
+It shouldn’t. Creation of mmaps are done in chunks. Chunk size is adjustable. I’ve logged peak mem using tracemalloc too in the notebooks
+
+https://canvas.mit.edu/courses/33939/assignments/syllabus (This free MIT course starting Sep-4th looks interesting). 
+I am a noobie to this area and was thinking lectures 1-3 seem relevant to this competition ? Could some check if this is correct ? Please correct me if this wrong 
+
+I have a question regarding the recommended cell numbers in the validation perturbed conditions. 
+
+Assume we have a deterministic model that generates just one prediction for each perturbation. And 2500 cells were recommended. Should we then upload
+
+i. Just one prediction
+ii. The same prediction repeated 2500 times
+iii. Add random noise 
+
+Sorry if the question is too simple. But I don't quite understand how cell-eval works. (módosítva)
+2025. augusztus 30., szombat 4:39
+
+I have a question regarding the recommended cell numbers in the validation perturbed conditions.   Assume we have a deterministic model that generates just one prediction for each perturbation. And 2500 cells were recommended. Should we then upload  i. Just one prediction ii. The same prediction repeated 2500 times iii. Add random noise   Sorry if the question is too simple. But I don't quite understand how cell-eval works. (módosítva)
+2025. augusztus 30., szombat 4:39
+
+I think your best bet is to try everything by running cell-eval locally on a subset of the train set
+
+which method in scanpy ? also wilcoxon ? Or did you use the DEGs computed by cell-eval and then did fold change using scanpy ?
+
+realize i was using too few samples for the control set(maintained a 2:1 ratio of ctrl:pert), which i think might be  skewing predictions ?? (correct me if im wrong ?), control set too large for me to run deg prediction with the entirety of it pairwise, so im gonna try just taking 5x randomly sampled control cells. (módosítva)
+2025. augusztus 30., szombat 18:57
+
+need to figure out what size would be fine as a representative sample, in order for me to get results in a realistic time-frame
+
+also has anybody looked at distribution-distribution modelling methods ?
+
+yeaah we find the same thing, but  there is big cell heterogenicity, if you are splitting at random, I reckon most DE methods should find different hits.
+,
+wilcoxon test with 0 inflated values is probably very noisy, but at the same time robinson et al (2018 I think) shows that it is actually a fairly good metric
+,
+
+yeah same thing, (sorry if im spamming)
+
+here's the code im running, im running it on the dataset after preproc, lmk if anybody else has run the same de test using scanpy's rank_genes-group method
+
+still not getting logfoldchanges <0 lol, forgive me if im making some dumb mistake.
+
+I have a question regarding the recommended cell numbers in the validation perturbed conditions.   Assume we have a deterministic model that generates just one prediction for each perturbation. And 2500 cells were recommended. Should we then upload  i. Just one prediction ii. The same prediction repeated 2500 times iii. Add random noise   Sorry if the question is too simple. But I don't quite understand how cell-eval works. (módosítva)
+2025. augusztus 30., szombat 4:39
+
+Same here. I assume your model accepts (as input) a control state, in addition to the target gene (however encoded). If that's the case, a possible approach is to randomly pick a non-targeting state (from the 38000ish in the training data) for each of the required (2500 in your example) cells. Another approach could be to generate different "synthetic" control states based on all non-targeting entries. Both approaches have pros and cons. (módosítva)
+2025. augusztus 30., szombat 20:50
+
+Another question: what are the batch labels in the h1 training data? Simply different sequencing runs, or is is something else?
+
+Why are there 38,176 control cells in total, but only 24,128 are used in competition_val_template.h5ad, and some of those are duplicated to reach 38,176?
+
+Why are there 38,176 control cells in total, but only 24,128 are used in competition_val_template.h5ad, and some of those are duplicated to reach 38,176?
+
+I think this is because of the way preprocess_infer works. it samples from the control cells and there may be duplicates in the sampling process and also not include the whole control cells.
+
+And could you clarify how the perturbation bin percentages are calculated? Their sum (35%, 29%, and 46%) exceeds 100%.
+
+This binning strategy was applied to a different unpublished dataset, to select the 300 perturbations used in the competition. The competition dataset was a different experiment, sequenced much deeper, so the number of differentially expressed genes increased for all perturbations.
+
+When generating the validation template using the Validation Set pert_counts_Validation.csv, what is the purpose of median_umi_per_cell? I noticed it doesn’t seem to be used in the official notebook (https://github.com/ArcInstitute/cell-eval/blob/main/tutorials/vcc/vcc.ipynb)  Also, besides sc.pp.log1p(adata), is it necessary to apply sc.pp.normalize_total(adata) as well?
+
+The median_umi_per_cell will beneift models that try to predict the actual cell/gene counts.
+
+@Virtual Cell Challenge Why is it that when I do expm1 (the inverse of log1p transform) on competition_train.h5, I get sensible integer values, but when I do it on the other h5 files, they have non integer values like 2.82? I thought it was due to normalization, but the total cell counts for each cell in the h5 files are not even the same, so it seems non normalized.
+
+The official training dataset contains integer count values.
+Other datasets may contain transformed values.
+
+y_k^hat and y_k are both vectors in gene space. They average only along the cell dimension ("pseudobulked").
+
+I’m guessing that when submitting results, the total UMI might ideally be close to the median of the training set, around 50,000. 
+However, I was wondering if anyone could kindly share their thoughts on which normalization method in the fig would be most appropriate for our competition.
+
+During training
+
+I think i woukd be using the already normalized data we have from the Arc Institute. The .h5 files have those in the .X and they have an uns of log1p
+
+As far as I understood its plain log1p not accounting for depth normalization?? But I may be wrong
+
+For the data from Colab, the H1 and validation datasets use only log1p without any normalization, whereas HepG2 and other smaller datasets apply both normalization and log1p.
+
+it seems that many papers do not use median normalization
+
+I see! @joe how did you figure out that Hegp2 and others apply both the normalizations? From their papers?
+
+I am curious in this case how can we train the model with different types of normalization? But from the colab it doesnt seem to matter with the baseline being trained on both kinds with not much effect?? Am curious how and why its happening?
+
+I see! @joe how did you figure out that Hegp2 and others apply both the normalizations? From their papers?
+
+expm1 them and check if it is integer
+
+Ofc but figuring out if it’s normalized and then log1p is a bit tricky no as jf u have one or both they wont be integers right?
+
+after expm1, you can make sum of the umi, if all the cell are same, we can consider it go through normalization
+
+Sorry whats expm1?
+
+I didnt get you sorry
+
+inverse log1p
+
+I seee what you mean! After doing inverse of log1p if we get integers its one step else its both?
+
+yes, usually we normalize with the interger-target sum
+
+Yes 10000 right?
+
+so after the inverse for each cell i should get tue sum of umi as 10k if not it hasnt done that
+
+Sorry yes i had got lost a bit. Thanks for clarifying! But again my question stands, how can we mix these 2 types of data in a single model to train
+
+they can also use median normalization
+
+Ohhh i see okay
+
+Sorry yes i had got lost a bit. Thanks for clarifying! But again my question stands, how can we mix these 2 types of data in a single model to train
+
+No. So we need to standardize it. But I'm not sure which specific standardization method to use
+
+median norm, or per target gene median norm, or fix target sum norm
+
+But in the Colab tutorial they don’t do this right?
+
+I was just about to ask which one of these three to use
+
+Am curious why dont they say tjis in colan
+
+Yes, it's really confusing
+
+And with different normalizations how do they get the results?
+
+Yes, I also wanted to ask...
+
+I have a question for this challenge.
+Question : When I learn the baseline code locally, is the score similar to the baseline code result?
+
+baseline code : https://colab.research.google.com/drive/1QKOtYP7bMpdgDJEipDxaJqOchv7oQ-_l#scrollTo=g22NzujYmSUV
+,
+
+I trained and infered the result of challenge refering to the baseline code in my computer (Just except for num_workers, code is similar)
+However After submiting, I got poor result score than colab reference score shown at the very bottom. There's quite a big difference(score), but I don't know whether it is possible.
+
+Hmmmm yes thats what we were thinking about. The score they have seems a bit iffy without standardizing the data that are normalized differently across datasets. I added a dataset but had similar issues tho yes I admit I had the data normalized a bit differently but still I think even with the corrected thing it wont work as good as they show??
+
+Thank you for sharing opinion. Yes. I knew I could get this baseline score by the baseline code. I think this is just score of example, past, or something...
+
+I have a question for this challenge. Question : When I learn the baseline code locally, is the score similar to the baseline code result? baseline code : https://colab.research.google.com/drive/1QKOtYP7bMpdgDJEipDxaJqOchv7oQ-_l#scrollTo=g22NzujYmSUV
+,
+ I trained and infered the result of challenge refering to the baseline code in my computer (Just except for num_workers, code is similar) However After submiting, I got poor result score than colab reference score shown at the very bottom. There's quite a big difference(score), but I don't know whether it is possible.
+
+Yup I have the same issue. My local scores are very low. Max of 0.05 for me. @Mayank is probably on the right track. I am Trying to catch up on the methods
+
+Yup I have the same issue. My local scores are very low. Max of 0.05 for me. @Mayank is probably on the right track. I am Trying to catch up on the methods
+
+Oh.. My local score is same : 0.05. I tried to see if there was a problem with my code, but it seems to be a different point.
+
+Yes it seems something to do with normalization and how the different datasets are talking to each other. I think using SE can resolve this issue but for that too we need to start from the same point
+
+i get 0.05 with 50k steps and if you go any higher it goes down.. @Mayank  what is SE ? sorry for the newbie questions 
+
+Ohhh the state embeddings
+
+The state embedding model
+
+I submitted a .vcc file generated from competition_support_set/competition_val_template.h5ad, which I downloaded from Google Storage. The file format appears to be correct for submission. However, when I submitted it to the website, the results obtained from this ground truth file were unexpectedly low. Anyone could explain for me why this happen, thank you so much! (módosítva)
+2025. szeptember 4., csütörtök 9:56
+
+We all are facing the same issue! Which model did you use
+
+I just used default model.
+
+ST : not select
+SE : ESM2_pert_features.pt
+
+Ohhh yes! Also SE isnt ESM2 those are the protein embeddings
+
+ST by default to train is the state_sm i think
+
+I think SE-600M may be same model because train loss is same when I used the SE model(SE-600M). However, I need to check whether code works well when I input SE model parameter.
+=> https://huggingface.co/arcinstitute/SE-600M
+
+Yes. I think I need to test other model first.
+
+Hmmmm yes i think across datasets SE would be useful
+
+I am thinking of training just on the competition_trqin.h5 which has 200k cells to avoid the issue of different normalizations
+
+I think it is also good thought. Although I haven't seen multiple data yet, if normalization is different for the sample data(input), it can also make issues.
+
+Yes it is. So i was thinking of doing this and wnen using multiple i think the state embeddings can be useful
+
+Yes. So, I think it takes some times to make baseline performance...
+
+Data, Embedding...
+
+Yes!
+
+I mean I try to submit .vcc from competition_val_template.h5ad, not using any model because I saw that the file format is correct to submit already, but the score is low.
+
+Sorry the .vcc file is made after u have predictions right? And the template is the one to predict on I believe from the colan
+
+I mean i submit the whole competition_val_template.h5ad, like just download and submit, because I think the file format is correct and the result is fit for submit
+
+Ohhh! I really dont think its correct tho but okay
+
+You are right, and when I look at hepg2 and others, expm1 gives non-integers. But then when I sum them by cell, the cells all have different sums
+
+Could someone explain the purpose of competition_val_template.h5ad? Is it meant to be a ground truth file for fine-tuning, or something else? If it is indeed a ground truth file, why does submitting it to the system yield such low results? Thank you so much everyone!
+
+Its not the ground truth as far as I understand. You need to predict your results on this file and then upload it
+
+So the perturbated is just random value and I cannot use it to fine tune and just use the template isn't it (módosítva)
+2025. szeptember 5., péntek 9:32
+
+I think "competition_val_template.h5ad" is just sample file for convenient predict. 
+You can see the first image that loads "competition_val_template.h5ad". And the second image is updating predict values from  "competition_val_template" you loaded in the first image.
+
+Yes
+
+Thank you so much guys 
+
+@Virtual Cell Challenge nice and timely improvement to the Leaderboard (heatmap and explanation of the metrics). So cool  (módosítva)
+2025. szeptember 5., péntek 13:38
+
+Dear Organizers,
+
+Could we please know how exactly the ground-truth h5ad file is preprocessed? For example, are they
+
+Raw counts?
+Median normalized or CPM normalized? Whose median?
+Log1p?
+
+This is important because if there is only log1p, then the cell-eval will skip the normalization. We have full control of whether to normalize/log1p in our submission, but we don't know what the hidden ground truth really is. The preprocessing has nothing to do with the core problem (perturbation modeling), but will greatly affect the overall score. I can achieve a high score in a local cross-validation, but the online score showed a big gap. I tried different norm/log combinations, and the online scores were hugely different.
+
+It would be really helpful if we could know exactly whether the ground truth file has undergone median normalization/log1p or simply integer counts. And whether it contains a full copy of (raw?norm?log1p?) non-targeting cells.
+
+h
+
+@Virtual Cell Challenge @VCC (Abhinav Adduri)
+
+Want to also add something here: I looked through the cell-eval code a bit, and I noticed the _convert_to_normlog function in _evaluator.py. The way it decides whether to do norm-log only depends on if the input is integer or not. So, like it says,  it will not be able to distinguish between normalized input and log-normalized input. But my worry is it also can’t tell the difference between log input and log-normalized input.  So with the support set data (it seems like h1ESC raw data is log1p and other cell types use some kind of norm+log1p), the model was trained on log1p scale data for h1 cells, at least. When we put the predictions through cell-eval prep, it basically does nothing since it sees it as norm-log already. I tried to norm-log the data myself, the results were worse than just using what’s in the support set, which is kinda confusing.  So, yeah, agreed with what was discussed above, and it’s important to know how the data was processed during evaluation. Would really appreciate hearing your thoughts on this!  @VCC (Alden Woodrow) (módosítva)
+2025. augusztus 28., csütörtök 17:25
+
+The evaluator can distinguish two options: integer input, or non-integer input. In the former case, it will assume that input matrix contain counts, and normalize then logarithmize it. In the latter case, it will assume that all transformations are already done by the user and will not perform any transformations.
+So, in other words, users have only two options: provide integer counts (the evaluator will normalize/logarithmize them), or provide fully transformed values (evaluator does nothing).
+
+I have a question for this challenge. Question : When I learn the baseline code locally, is the score similar to the baseline code result? baseline code : https://colab.research.google.com/drive/1QKOtYP7bMpdgDJEipDxaJqOchv7oQ-_l#scrollTo=g22NzujYmSUV
+,
+ I trained and infered the result of challenge refering to the baseline code in my computer (Just except for num_workers, code is similar) However After submiting, I got poor result score than colab reference score shown at the very bottom. There's quite a big difference(score), but I don't know whether it is possible.
+
+Hi Leech, I have another problem about AIVC colab. When i submitted the results using the baseline code, the system always have the problem showing that "Job processing failed: zstd decompressor error: Data corruption detected". I wonder if you have the same problem?
+
+Sorry. When I follow this web page, I haven't yet this message until now. Do you follow this page? 
+https://colab.research.google.com/drive/1QKOtYP7bMpdgDJEipDxaJqOchv7oQ-_l
+
+yep, maybe i will try to re-download zstd. Anyway, thanxs for your response.
+
+In fact, I haven't test this code in the local server, just doing in Colab.
+When I do this challenge in local system, I refer pages and just do train([/state, git clone], [/cell-load, pip install]), infer, cell-eval prep([/cell-eval, pip install]).
+https://github.com/ArcInstitute/state
+https://github.com/ArcInstitute/cell-load
+https://github.com/ArcInstitute/cell-eval
+
+You can do what you do. Good luck!
+
+Hey there, in the data blog post https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge
+
+In this figure, how is the filtering with contrastVI performed exactly ? 
+ 
+Is ContrastVI solely used to select the important genes (so only genes with >50 contrastVI cells are selected but then all cells are included from this condition) ? e.g. we have cells that have p(pertubed) < 0.5  in the dataset.
+,
+Or is  ContrastVI used to filter cells on a cell by cell manner ? e.g. all cells that have p(pertubed) < 0.5 have been removed from the dataset.
+,
+ (módosítva)
+2025. szeptember 10., szerda 12:15
+
+Anyone having certificate security error on the website?
+
+yeah, me too
+
+it is expired
+
+
+
+Thanks!! We're aware of the issue and are working on it.
+
+The website is back.
+
+is there an h5 wrapper specifically for our anndata?
+
+e.g. to get all gene names etc.
+
+hi, there! IF use SE, In code, there is only /UMI, then log1p. But in paper, there is x 10k, /UMI, then log1p. which one is right?
+
+ContrastiveVI filtering was performed on a cell-by-cell manner during the target gene selection process on the original large-scale CRISPRi pilot screen before data was generated for VCC. For that analysis, when selecting perturbations with strong or subtle perturbation effects, we first select for cells that have p(pertubed) > 0.5 and then go on to further select for perturbations with greater than 50 cells per perturbation and optimize for diversity.
+
+We've seen a few questions regarding normalization, so we thought we'd share our thoughts:
+
+Expression transformation
+To transform the raw integer count expression values, we utilize standard scapy functions:
+1). Normalize expression in each cell by dividing by total counts in that cell and multiplying by the median total counts across all cells in the dataset.
+       scanpy.pp.normalize_total(adata)
+Note that training / validation / test datasets are normalized separately, but the median number of UMIs in these datasets are very similar.
+2). Next we take normalized expression values from above, and apply ln(1+x) transformation:
+      scanpy.pp.log1p(adata)
+
+Submitting log1p-normalized or raw count data.
+The evaluator can distinguish between two options: integer input or non-integer input. In the former case, it will assume that the input matrix contains counts, and normalize then logarithmize it. In the latter case, it will assume that all transformations are already done by the user and will not perform any transformations.
+
+So, in other words, users have only two options: provide integer counts (the evaluator will normalize/logarithmize them), or provide fully transformed values (the evaluator does nothing).
+
+Super ! Thanks a lot for taking the time to type this
+
+Hi! We're using a hosted notebook service (Modal) to start experimenting. Is there a way to curl or wget the training data? Uploading the data through their UI buttons isn't seeming to work
+
+Not that I could work out, upload it to R2 and wget from there
+
+eg. K562 Genome-wide -> 
+curl -L -OJ --retry 5 --retry-delay 2 \
+     -H "User-Agent: Mozilla/5.0" \
+     "https://plus.figshare.com/ndownloader/files/35775507"
+
+- k562_wide - https://plus.figshare.com/ndownloader/files/35775507
+- k562 - https://plus.figshare.com/ndownloader/files/35773219
+- rpe1 - https://plus.figshare.com/ndownloader/files/35775606
+- hepg2- https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE264667&format=file&file=GSE264667%5Fhepg2%5Fraw%5Fsinglecell%5F01%2Eh5ad
+- jurkat - https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE264667&format=file&file=GSE264667%5Fjurkat%5Fraw%5Fsinglecell%5F01%2Eh5ad
+
+vcc train is tricky one - start downloading from browser (your local computer) and then copy link (when it starts downloading)  - then curl - this file needs session id (módosítva)
+2025. szeptember 17., szerda 0:10
+
+wow @Remek you’re here too! Thank you!!
+
+wow @Remek you’re here too! Thank you!!
+
+Yes 
+
+Yes 
+
+@Virtual Cell Challenge is it possible to provide an API for direct submission? that can make things lot easier than going through the website
+
+Anyone facing issues with the upload. I get an email after the upload is complete saying
+
+Model Submission Failed to Process
+
+Hello,
+
+Your most recent model submission for the Virtual Cell Challenge failed to process with the following error:
+
+
+          Job processing failed: zstd decompressor error: Data corruption detected
+
+This can be caused by submission file formatting, corruption, or data issues.
+
+Please contact the Virtual Cell Challenge Support Team at help@virtualcellchallenge.org
+
+and provide them with your submission ID: Qk3B9xl8t7nIgCZZXIm2, for assistance with this issue.
+
+Not sure whats wrong
+
+@Virtual Cell Challenge is it possible to provide an API for direct submission? that can make things lot easier than going through the website
+
+We've received this feedback and is something we will do for next year.
+
+cosentiyes
+ gondolatmenetet kezdett: We've seen a few questions regarding. Nézz meg minden gondolatmenetet.
+ — 
+2025. 09. 18. 20:49
+2025. szeptember 18., csütörtök 20:49
+
+Anyone facing issues with downloading the datset from the website?
+
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Error>
+<Code>ExpiredToken</Code>
+<Message>Invalid argument.</Message>
+<Details>The provided token has expired. Request signature expired at: 2025-09-18T20:53:59+00:00</Details>
+</Error>
+
+Hey. When running tx infer, it looks like it samples the control cells to use as the ctrl_cell_emb.  What is the purpose of preprocess infer? Seems like thats to replace perturbed cells with control expressions but are those values used during infer step?
+
+Hi, I have two questions on validation / testing:
+
+As we only have target_gene, n_cell and median_UMI in validation set, is there a common practice to generate a validation h5ad for inference? Currently I'm assuming uniform distribution. Will a simulated scRNA expression as validation dataset be helpful?
+,
+I would like to confirm the 300 perturbations in training / validation / testing sets are all genetic, is that correct?
+,
+@Virtual Cell Challenge (módosítva)
+2025. szeptember 23., kedd 18:10
+
+Thank you!!
+
+@Virtual Cell Challenge Hi I have a question. I sent email to "help@virtualcellchallenge.org" last Friday. However, I haven't yet get any message. Therefore, I leave my question here.
+My question is that : "Is there a way to invite someone who is already participating in the competition individually to join our team?"
+
+any updates on creating an API for submission?
+
+I don't think thats part of the Challenge task(its not stated), but, it all depends on what you're doing with the dataset.
+
+any updates on creating an API for submission?
+
+Will probably be next year
+
+@Virtual Cell Challenge could you please confirm whether the discrimination score is calculated on absolute fold change?
+
+@Virtual Cell Challenge Hi I have a question. I sent email to "help@virtualcellchallenge.org" last Friday. However, I haven't yet get any message. Therefore, I leave my question here. My question is that : "Is there a way to invite someone who is already participating in the competition individually to join our team?"
+
+I got message from email today. Thank you for answer about my question!
+
+@Virtual Cell Challenge could you please confirm whether the discrimination score is calculated on absolute fold change?
+
+I also think it's really weird to take abs() for PDS calculation, which seems to be the default behavior of cell-eval
+
+Hi everyone, I was reading the STATE paper and comparing it with the released implementation, and I noticed a potential discrepancy.
+
+In the paper (Figures 3B/S2B and the Methods), it looks like both control cells and perturbations are passed through SE encoders into a shared latent space before going into the ST module. However, in the code (src/state/tx/models/state_transition.py, class StateTransitionPerturbationModel), the forward() function shows something different:
+
+pert = batch["pert_emb"].reshape(-1, self.cell_sentence_len, self.pert_dim)
+basal = batch["ctrl_cell_emb"].reshape(-1, self.cell_sentence_len, self.input_dim)
+
+pert_embedding = self.encode_perturbation(pert)      # embedding layer
+control_cells = self.encode_basal_expression(basal) # projection MLP
+
+combined_input = pert_embedding + control_cells
+
+
+So in practice:
+
+Perturbation → goes through an embedding encoder
+
+Control cells → only projected via MLP (not passed through SE again)
+
+This seems to diverge from the paper’s description of SE → ST flow.
+Is this simplification intentional, or is it different from what the paper meant to convey?
+
+Hi everyone, I was reading the STATE paper and comparing it with the released implementation, and I noticed a potential discrepancy.  In the paper (Figures 3B/S2B and the Methods), it looks like both control cells and perturbations are passed through SE encoders into a shared latent space before going into the ST module. However, in the code (src/state/tx/models/state_transition.py, class StateTransitionPerturbationModel), the forward() function shows something different:  pert = batch["pert_emb"].reshape(-1, self.cell_sentence_len, self.pert_dim) basal = batch["ctrl_cell_emb"].reshape(-1, self.cell_sentence_len, self.input_dim)  pert_embedding = self.encode_perturbation(pert)      # embedding layer control_cells = self.encode_basal_expression(basal) # projection MLP  combined_input = pert_embedding + control_cells   So in practice:  Perturbation → goes through an embedding encoder  Control cells → only projected via MLP (not passed through SE again)  This seems to diverge from the paper’s description of SE → ST flow. Is this simplification intentional, or is it different from what the paper meant to convey?
+
+The cells could be preprocessed such that they were passed through SE prior, that’s why it’s called ‘pert_cell_emb’
+
+The cells could be preprocessed such that they were passed through SE prior, that’s why it’s called ‘pert_cell_emb’
+
+Thanks for clarifying! I checked the preprocessing code in the released repo (src/state/_cli/_tx/_preprocess_train.py), and it seems that for the Challenge baseline the inputs are not precomputed SE embeddings. Instead, the pipeline:
+    •    Loads the raw .h5ad gene expression
+    •    Applies normalization, log1p, and highly-variable gene selection
+    •    Stores the result in X_hvg
+    •    Then ST consumes ctrl_cell_emb/pert_cell_emb derived from this HVG matrix
+
+So in the official baseline, the cells are not passed through SE beforehand — they’re projected directly from normalized raw expression. I guess the code could support a mode where precomputed SE embeddings (pert_cell_emb) are stored in the h5 file, but that’s not what the Challenge data provides.
+
+Indeed, the challenge example does not use SE
+
+Indeed, the challenge example does not use SE
+
+so true
+
+Anyone have an issue with .vcc upload?
+--> Chrome solve the problem! (módosítva)
+2025. szeptember 23., kedd 16:23
+
+Hi, I have two questions on validation / testing: As we only have target_gene, n_cell and median_UMI in validation set, is there a common practice to generate a validation h5ad for inference? Currently I'm assuming uniform distribution. Will a simulated scRNA expression as validation dataset be helpful?
+,
+I would like to confirm the 300 perturbations in training / validation / testing sets are all genetic, is that correct?
+,
+@Virtual Cell Challenge (módosítva)
+2025. szeptember 23., kedd 18:10
+
+I just want to follow up with this question again. Do we have any explanations above for reference? Thanks!! @Virtual Cell Challenge
+
+I just want to follow up with this question again. Do we have any explanations above for reference? Thanks!! @Virtual Cell Challenge
+
+https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge
+
+@Virtual Cell Challenge Is there any api for submitting results?
+
+Has anyone tried following https://huggingface.co/datasets/VirtualCell2025/SE600M-embedding
+ to generate embeddings  and use them for training? I followed the blog and added SE embeddings, but my training results are really poor. No idea how to properly apply SE in training  . Below are the loss curves for my experiments without SE and with SE
+
+Hi, 
+
+I found that we have a DEs for evaluation. I think DEs need a comparison with gene expression profile before perturbation. cell-eval also need that input. Do we have that data? or the non-targeting cells are considered to be used here. 
+
+Thanks for any help!
+
+Non-targeting serves as pre-perturbation representation of the cells. They are the control group
+
+Non-targeting serves as pre-perturbation representation of the cells. They are the control group
+
+Hi, thanks. Yes i know this. So we also use them in calculating DEs? i
+
+Yes, the Wilcoxon test needs control group for evaluation for ground truth set and predicted set. The final step compares ranked DEGs of these 2 sets
+
+Off topic, but can anyone describe here or DM me how to work with bigwig files on windows? Regular pip install is not working with any work around. I’m looking into bigwigToBedGraph converters but nothing I find online is running when prompted
+
+Have you tried this: 
+https://anaconda.org/bioconda/ucsc-bigwigtobedgraph
+
+conda install bioconda::ucsc-bigwigtobedgraph
+
+I think so, but I’ll try again. Thank you! I think that I’m going to have to run this on a Linux machine and bring the files back to windows 
+
+These are very venerand tools. They must have been written about 20 years ago, by the UCSC team, and probably have never changed since then.
+
+I think so, but I’ll try again. Thank you! I think that I’m going to have to run this on a Linux machine and bring the files back to windows 
+
+There it should be some python and R wrappers around. 
+
+Maybe this one, pybigwig: pip install pyBigWig
+
+I use ubuntu via WSL on Windows, editing in visual studio code, and it works quite neatly. It is a way to run a Linux system on Windows.
+
+I think rtracklayer in R can read bigwig files
+
+Has anyone tried following https://huggingface.co/datasets/VirtualCell2025/SE600M-embedding  to generate embeddings  and use them for training? I followed the blog and added SE embeddings, but my training results are really poor. No idea how to properly apply SE in training  . Below are the loss curves for my experiments without SE and with SE
+
+It would be great if someone could run that once, and store the embeddings as a table in huggingface or kaggle, so that other users could access it. It would save a lot of computation. I'm not sure it is allowed by the rules of the competition, though. 
+I am planning to compute the embeddings next week (I'm waiting to get access to some compute)
+
+Hi all, I noticed that the VCC training dataset (adata_Training.h5ad) includes target_gene = "TAZ".
+However, the official Arc documentation and HGNC both list the canonical gene symbol as WWTR1
+
+For downstream modeling (e.g., generating ESM-2 embeddings from Ensembl protein sequences), the Ensembl API doesn’t return a sequence for TAZ, but works with WWTR1.
+
+Should i treat TAZ in the VCC dataset as equivalent to WWTR1, and use WWTR1’s sequence for embedding, while keeping the label as TAZ for submission compatibility?
+
+Hi all, I noticed that the VCC training dataset (adata_Training.h5ad) includes target_gene = "TAZ".   However, the official Arc documentation and HGNC both list the canonical gene symbol as WWTR1    For downstream modeling (e.g., generating ESM-2 embeddings from Ensembl protein sequences), the Ensembl API doesn’t return a sequence for TAZ, but works with WWTR1.    Should i treat TAZ in the VCC dataset as equivalent to WWTR1, and use WWTR1’s sequence for embedding, while keeping the label as TAZ for submission compatibility?
+
+Hey, thanks for pointing that out. I don't think that's critical for the submission to have the up-to-date gene names, however some entries should probably be corrected depending on your specific method. A quick check revealed that there are in fact several instances of name mismatch w.r.t. the HUGO gene nomenclature. The following are some previously HGNC-approved symbols that I could ind, but much likely that's an incomplete list:
+
+"DUSP27" -> "STYXL2" @ index 1374 (HGNC:25034)
+"QARS" -> "QARS1" @ index 3310 (HGNC:9751)
+"H3.Y" -> "H3Y1" @ index 4794 (HGNC:43735)
+"HIST1H2AI" -> "H2AC13" @ index 5692 (HGNC:4725) 
+"MPP6" -> "PALS2" @ index 6597 (HGNC:18167)
+"SSU72P8" -> "SSU72L6" @ index 7075 (HGNC:43627)
+"PALM2-AKAP2" -> "PALM2AKAP2" @ index 8287 (HGNC:33529)
+"DEC1" -> "DELEC1" @ index 8336 (HGNC:23658)
+"DUSP13" -> "DUSP13B" @ index 8930 (HGNC:19681)
+"CCDC84" -> "CENATAC" @ index 10368 (HGNC:30460)
+
+Related to TAZ, note that it could be the previously accepted symbol for TAFAZZIN (HGNC:11577) in addition to an alias symbol for WWTR1, the two being totally unrelated.
+
+@Virtual Cell Challenge 
+Hi, can anyone respond to the issue about PDS score evaluation below? https://github.com/ArcInstitute/cell-eval/issues/189
+This seems critically affect the leaderboard scores. (módosítva)
+2025. szeptember 29., hétfő 2:58
+
+@Virtual Cell Challenge  Hi, can anyone respond to the issue about PDS score evaluation below? https://github.com/ArcInstitute/cell-eval/issues/189 This seems critically affect the leaderboard scores. (módosítva)
+2025. szeptember 29., hétfő 2:58
+
+Hello! We are actively looking into it, thanks for your patience. (módosítva)
+2025. szeptember 29., hétfő 17:41
+
+Tuning for the wrong score in a whole month. 
+
+Hello! We are actively looking into it, thanks for your patience. (módosítva)
+2025. szeptember 29., hétfő 17:41
+
+Please kindly do not modify the cell-eval computation, i.e., stick with abs, which is necessary for a meaningful PDS evaluation. And now it is simply too late to adjust the evaluation metric; it's like starting over the whole competition.
+
+But if we’re not working on a valid eval, isn’t all our efforts and compute time wasted? I’d follow on consensus, but really prefer to go for “real” impact beyond the competition.
+
+I agree with you that a valid eval is important. However, if abs is to be changed, then there are simply too many things to change, for example:
+
+The cell-level median-normalization is not standard, as discussed before, and should be removed.
+,
+The train median, validation median, and test median do not match.
+,
+In the final score, the discrimination score is weighted 2X than the DE score.
+,
+...to name a few.
+I myself also wasted months because of these, because I didn't read the doc/code carefully. If we change the abs now, what if next week normalization is changed, and next next week score weights are changed? I guess the best strategy here is simply to freeze the data/code/metric and try to approximate the solution, whatever it is, as much as we can.
+
+These are not ideal but not fundamentally wrong. By contrast, the discrimination score is calculated in a way that does not fully capture its intended construct; I think it’s incorrect and needs to be changed. (módosítva)
+2025. szeptember 30., kedd 8:25
+
+The current normalization pipeline:
+Normalize per cell → log1p → then sum. 
+This mixes cell-level and bulk-level assumptions and is indeed fundamentally wrong. By contrast, I can prove that the current discrimination evaluation is correct and removing abs is wrong.
+
+is it foreseeable when @Virtual Cell Challenge will respond? if it is within the next days it might still be fine but if the decision comes within a week this would be bothersome. 
+
+Also I think this is not that bad of an issue since it would knock everyone down equally
+
+is it foreseeable when @Virtual Cell Challenge will respond? if it is within the next days it might still be fine but if the decision comes within a week this would be bothersome.   Also I think this is not that bad of an issue since it would knock everyone down equally
+
+Yes, our goal is to have something within a few days/this week.
+
+These are not ideal but not fundamentally wrong. By contrast, the discrimination score is calculated in a way that does not fully capture its intended construct; I think it’s incorrect and needs to be changed. (módosítva)
+2025. szeptember 30., kedd 8:25
+
+I agree, the normalization procedure is acceptable, but current PDS calculation is not biologically meaningful.
+
+@Frank C. and @musb are making important points that seem leading to a solution for this year. Hopefully we converge soon. It’d be great to contribute, perhaps an independent code review or “test suite”/sanity checks? I’d be glad to participate, but only in a week…
+
+I agree with you that a valid eval is important. However, if abs is to be changed, then there are simply too many things to change, for example: The cell-level median-normalization is not standard, as discussed before, and should be removed.
+,
+The train median, validation median, and test median do not match.
+,
+In the final score, the discrimination score is weighted 2X than the DE score.
+,
+...to name a few. I myself also wasted months because of these, because I didn't read the doc/code carefully. If we change the abs now, what if next week normalization is changed, and next next week score weights are changed? I guess the best strategy here is simply to freeze the data/code/metric and try to approximate the solution, whatever it is, as much as we can.
+
+If the winning solution ends up benchmaxxing a metric that has no bio relevance because of bugs, this would be extremely damaging for both the winning team and the challenge itself. 
+
+We also lost lots of time on this, but I feel like the 'best' solution biologically speaking should maintain its performance (or even increase) when the eval details get ironed out. (módosítva)
+2025. szeptember 30., kedd 13:57
+
+I think I have to show some proof. 
+Here are the t-SNE visualizations of abs vs. no abs and normalization vs no normalization.
+Without abs, the pseudobulk profiles are totally different between with and without median normalization. However, abs effectively reduces the variance introduced by median normalization.
+In short, you either:
+keep abs, keep normalization, or
+remove abs, remove normalization. That's it.
+You don't want to mix them up, which will make the whole system wrong.
+But I would prefer to keep everything as is, as changing the modeling target at this stage is unacceptable for teams that use large models that need days to train; you are essentially early-stopping the competition for these teams. @Virtual Cell Challenge @VCC (Abhinav Adduri) (módosítva)
+2025. szeptember 30., kedd 17:05
+
+I fail to see how mixing those up would make the whole system wrong, it would indeed change the expression profile, but how can you conclude from this that the new counts are "wrong" ?  What is your ground-truth for the "right" here ? 
+
+We know normalization is very important, we know that predicting absolute changes is also extremely flawed from a modeling perspective (especially when lots of those large models are trying to generate new counts). Why would you want something that is, at first glance, flawed in either of those things ? (módosítva)
+2025. szeptember 30., kedd 17:13
+
+Even for teams that are training large models, once again, if they are optimizing for a flawed metric, this is very risky, nothing would prevent another competitor from publishing a short paper showing that the metric is flawed and said 'fancy model' is much worst at the 'good metric' than their solution
+
+I think I have to show some proof.  Here are the t-SNE visualizations of abs vs. no abs and normalization vs no normalization. Without abs, the pseudobulk profiles are totally different between with and without median normalization. However, abs effectively reduces the variance introduced by median normalization. In short, you either: keep abs, keep normalization, or remove abs, remove normalization. That's it. You don't want to mix them up, which will make the whole system wrong. But I would prefer to keep everything as is, as changing the modeling target at this stage is unacceptable for teams that use large models that need days to train; you are essentially early-stopping the competition for these teams. @Virtual Cell Challenge @VCC (Abhinav Adduri) (módosítva)
+2025. szeptember 30., kedd 17:05
+
+Thanks for the nice investigation. Could you explain these numbers in more detail? I'm wondering if these values are expression levels. If so, I would expect them to always be greater than 0. In that case, why would taking the absolute value make a difference? Sorry in advance maybe this is a stupid question.
+
+Thanks for the nice investigation. Could you explain these numbers in more detail? I'm wondering if these values are expression levels. If so, I would expect them to always be greater than 0. In that case, why would taking the absolute value make a difference? Sorry in advance maybe this is a stupid question.
+
+I would expect that t-SNE is done in centered PCA transformed counts space which is the usual method for this, so you would get negative values, but good question regardless (módosítva)
+2025. szeptember 30., kedd 17:20
+
+I would expect that t-SNE is done in centered PCA transformed counts space which is the usual method for this, so you would get negative values, but good question regardless (módosítva)
+2025. szeptember 30., kedd 17:20
+
+but the abs should take on the expression value instead of the PCA transformed value, correct? (módosítva)
+2025. szeptember 30., kedd 17:21
+
+but the abs should take on the expression value instead of the PCA transformed value, correct? (módosítva)
+2025. szeptember 30., kedd 17:21
+
+yes, my guess is that you compute the PCA loadings matrix, then you apply it to both the abs and the real values
+
+but if you apply the loadings to the abs values, nothing guarentees you that it stays > 0, also t-SNE representations add another layer of non-interpretability on top of PCA
+
+The answer is simple: cell-level median-normalization itself is wrong already.
+Pseudobulking never uses normalized expression, but only raw counts or log1p of raw counts. Normalization is always done after doing pseudobulk. The cell-level normalization is already wrong in the first place, and abs can at least mitigate it.
+I have perfect evidence to show you guys: their official Colab STATE training tutorial does NOT apply cell-level median-normalization, but only log1p, which is just correct.
+
+The answer is simple: cell-level median-normalization itself is wrong already. Pseudobulking never uses normalized expression, but only raw counts or log1p of raw counts. Normalization is always done after doing pseudobulk. The cell-level normalization is already wrong in the first place, and abs can at least mitigate it. I have perfect evidence to show you guys: their official Colab STATE training tutorial does NOT apply cell-level median-normalization, but only log1p, which is just correct.
+
+I agree cell level median-normalization induces a lot of biases like spurious correlations etc. But if you do not normalize at the cell level, how do you expect to compare cells that have different librairy sizes ?
+
+You can compare at pseudobulk level, but that's much less ambitious that the 'virtual cell model' that would operate at single cell level (módosítva)
+2025. szeptember 30., kedd 17:28
+
+yes, my guess is that you compute the PCA loadings matrix, then you apply it to both the abs and the real values
+
+hmmmm...Is there a specific reason why we should use the same loadings for both cases? Maybe I am wrong, it makes more sense to me to handle them independently, performing a separate t-SNE for the left figure (non-abs) and another one for the right (abs)... But maybe @Frank C. can clarify this? Sorry to bother you guys... (módosítva)
+2025. szeptember 30., kedd 17:39
+
+Thanks for the nice investigation. Could you explain these numbers in more detail? I'm wondering if these values are expression levels. If so, I would expect them to always be greater than 0. In that case, why would taking the absolute value make a difference? Sorry in advance maybe this is a stupid question.
+
+Explanation of the t-SNE plots: 
+I am trying to mimic how the discrimination scores are calculated in abs or no-abs, normalization or no-normalization scenarios:
+
+wo/ normalization, wo/ abs: perturbation expression -> minus control -> t-SNE;
+,
+w/ normalization, w/ abs: perturbation expression -> cell-level median normalization -> minus control  -> abs -> t-SNE;
+,
+w/ normalization, wo/ abs: perturbation expression -> cell-level median normalization -> minus control  -> t-SNE;
+,
+wo/ normalization, w/ abs: perturbation expression -> minus control  -> abs -> t-SNE;
+,
+This can be different from the 'standard' t-SNE, but it is how the discrimination score is computed.
+
+But you group the t-sne computations here right ?
+
+t-sne is computed on both light blue and red points (i.e. to build your plot, you compute t-sne twice)
+
+Abs and non-abs are different scenarios, so one t-SNE for abs (w/ and wo/ normalization) on the right, another t-SNE for non-abs (w/ and wo/ normalization) on the left.
+
+okay great
+
+gtech
+ gondolatmenetet kezdett: ** What does this mean for the challenge. Nézz meg minden gondolatmenetet.
+ — 
+2025. 10. 01. 7:51
+2025. október 1., szerda 7:51
+
+Has anyone tried following https://huggingface.co/datasets/VirtualCell2025/SE600M-embedding  to generate embeddings  and use them for training? I followed the blog and added SE embeddings, but my training results are really poor. No idea how to properly apply SE in training  . Below are the loss curves for my experiments without SE and with SE
+
+I replicated these, but I couldn't figure out why.,
+
+Thank you so much @Frank C. . I've been struggling with what the official pseudo bulk means. If we take as many cells as we can to calculate the centroids in log1p space, after a certain number of cells, all the difference between KOs will turn muted.
+
+I saw that in the cell-eval package, 2 separate methods are provided, both predicted single cell vs control pseudo and predicted bulk vs control pseudo bulk. @Virtual Cell Challenge  I sincerely request the brilliant official team can clarify whether the PDS and DES calculate based on single cell level or pseudo bulk level. And if pseudo bulk level, how will you calculate the pseudo bulk from the predicted single cell expression we submit to the official? (módosítva)
+2025. október 1., szerda 23:57
+
+Further, if you remove the absolute, will the predicted effect with wrong direction punish the final result?
+
+Please be sure to read our latest announcement regarding the issue in one of our scoring metrics.  ⁠announcements⁠
+
+With all my respect, this challenge should lead all of us to better and more precise computational biology, but not lead us to fit your taste of evaluation. It's good for all of us that please just make  the evaluation standard nice and clear.  I've been watching people talking about the uncleared preprocessing and evaluation standard, and I've personally been struggling with that for a month.
+
+given that there will be a change to metrics, will the baseline be recalculated with the changed in metric?
+
+given that there will be a change to metrics, will the baseline be recalculated with the changed in metric?
+
+yes, the baseline has been recalculated and is updated on the leaderboard
+
+At the moment, we need to upload the .vcc prediction file and wait about an hour to receive the evaluation results, with only one submission permitted per day. Is there a simpler or more direct way to evaluate a trained model locally (or instantly) without uploading?
+
+What's the relationship between rank and overall score on the leaderboard? I see a discrepancy between their order.
+
+What's the relationship between rank and overall score on the leaderboard? I see a discrepancy between their order.
+
+I remember a post where they explain it. Or was it a link in an announcement? I’ll try to get back the link, but it exists and may be found from the site.
+
+Explanation of the t-SNE plots:  I am trying to mimic how the discrimination scores are calculated in abs or no-abs, normalization or no-normalization scenarios: wo/ normalization, wo/ abs: perturbation expression -> minus control -> t-SNE;
+,
+w/ normalization, w/ abs: perturbation expression -> cell-level median normalization -> minus control  -> abs -> t-SNE;
+,
+w/ normalization, wo/ abs: perturbation expression -> cell-level median normalization -> minus control  -> t-SNE;
+,
+wo/ normalization, w/ abs: perturbation expression -> minus control  -> abs -> t-SNE;
+,
+This can be different from the 'standard' t-SNE, but it is how the discrimination score is computed.
+
+Thank you Frank for the detail. Naive question to be sure: What is “minus control” in your calculation? Vector subtraction or removing the control subset before final computation step?
+
+Could you please clarify whether HepG2 was used exclusively for validation, or if the competition_val set consists solely of H1 cells?
+
+Quick question about training preprocessing:
+Support datasets (HepG2, K562, etc) are already normalized to 50k + log1p in the provided files.
+H1 training data appears to only have log1p applied.
+For custom models, should we:
+
+Use the provided files as-is (mixed preprocessing)?
+Standardize everything to the same normalization first?
+
+Thank you so much @Frank C. . I've been struggling with what the official pseudo bulk means. If we take as many cells as we can to calculate the centroids in log1p space, after a certain number of cells, all the difference between KOs will turn muted.  I saw that in the cell-eval package, 2 separate methods are provided, both predicted single cell vs control pseudo and predicted bulk vs control pseudo bulk. @Virtual Cell Challenge  I sincerely request the brilliant official team can clarify whether the PDS and DES calculate based on single cell level or pseudo bulk level. And if pseudo bulk level, how will you calculate the pseudo bulk from the predicted single cell expression we submit to the official? (módosítva)
+2025. október 1., szerda 23:57
+
+DES (Differential Expression Score) is calculated from the Differentially Expressed Genes (DEGs) which are calculated at a single-cell level using the Wilcoxon rank sum test implemented in pdex. PDS is calculated at a pseudobulk level since it measures the average effect of the perturbation - for implementation details we invite you to read the code on how pseudobulks are calculated in cell-eval. 
+
+
+
+If the predicted effect has the wrong direction then it will be scored lower now that the absolute value is removed. This is because we are no longer scoring just magnitude and the directionality now matters.
+
+Thanks!
+
+What's the relationship between rank and overall score on the leaderboard? I see a discrepancy between their order.
+
+The leaderboard is ranked by the overall score. Note the displayed rank is rounded to one significant digit. We’re not aware of any discrepancy - please share more details.
+
+The leaderboard is ranked by the overall score. Note the displayed rank is rounded to one significant digit. We’re not aware of any discrepancy - please share more details.
+
+I'm probably missing something obvious here, but notice that the overall scores aren't ranked from highest to lowest
+
+I'm probably missing something obvious here, but notice that the overall scores aren't ranked from highest to lowest
+
+This might be caching issue. Users may  need clear their cache to pick up the change.
+
+Ah got it, looks proper now, thanks!
+
+Is it possible to get more insights into how datasets were chosen for SE training, were species=human, gene_count>1000, umi_count>2000 the only filters or did you also for example exclude specific cells, drug treatments, perturbations...?
+
+A unit improvement in PDS contributes much more to the overall score than any of the other metrics, thought folks might be interested (módosítva)
+2025. október 6., hétfő 15:40
+
+Ah yes this makes sense. So given it's as hard to get an improvement of the DE score as it is to improve the PDS, it's better to work on PDS.
+
+snickerpoofs
+ gondolatmenetet kezdett: What is the maximum posible performance given the inherent noise of single cell data?. Nézz meg minden gondolatmenetet.
+ — 
+2025. 10. 06. 17:05
+2025. október 6., hétfő 17:05
+
+Thanks for the quick reply. Yes we conducted our split by splitting each perturbation into two groups of cells
+
+I'd like to know, in this ST training Colab (https://colab.research.google.com/drive/1QKOtYP7bMpdgDJEipDxaJqOchv7oQ-_l#scrollTo=tHTimZEvbDcp), what is the typical range for the overlap_N metric on template_val? I'm currently getting 0, but in the Replogle-Nadig Colab (https://colab.research.google.com/drive/1Ih-KtTEsPqDQnjTh6etVv_f-gRAA86ZN#scrollTo=sD0i3Fu1jvaH), this metric is around 0.15, which seems to be the expected value.
+
+
+
+Just want to confirm the PDS and DES calculations depend on the control cells everyone uploaded individually in submissions? Is this even an intended behavior? In my own experience, using different submitted controls can influence the scores significantly. Then are we supposed to also explore what is the strategy of submitting a better control subset, this seems off from the topic of the competition. Could you explain the computation and how about computing everyone's submission against a same official set of controls?
+
+Also saw the using of uploaded controlds was confirmed in another channel  ⁠📌 Q&A with the Challenge Organi…⁠ (módosítva)
+2025. október 8., szerda 22:21
+
+Just want to confirm the PDS and DES calculations depend on the control cells everyone uploaded individually in submissions? Is this even an intended behavior? In my own experience, using different submitted controls can influence the scores significantly. Then are we supposed to also explore what is the strategy of submitting a better control subset, this seems off from the topic of the competition. Could you explain the computation and how about computing everyone's submission against a same official set of controls?  Also saw the using of uploaded controlds was confirmed in another channel  ⁠📌 Q&A with the Challenge Organi…⁠ (módosítva)
+2025. október 8., szerda 22:21
+
+It seems to be exactly like that. Shows up that engineering the submitted wild-type cells into something that does not resemble correctly normalized (or raw) single-cell transcriptomes at all can significantly improve my score. I think this really calls for another adjustment to the scoring system, because simple numerical tricks can drastically influence the results. (módosítva)
+2025. október 9., csütörtök 13:56
+
+will we get the val set for training for the final submission?
+
+silly question here that I didn't see a clear resolution to in the history, but I presume most people are getting local cell-eval scoring consistent with the leaderboard?
+
+is this the methodology?
+
+generate your prediction anndata (h5ad) w/ your model
+,
+generate your agg_results.csv with 'cell-eval run -ap prediction.h5ad -ar competition_val_template.h5ad'
+,
+generate baseline predictions with 'cell-eval baseline -a competition_val_template.h5ad'
+,
+generate baseline agg_results.csv with 'cell-eval run -ap baseline_prediction.h5ad -ar competition_val_template.h5ad'
+,
+generate score with 'cell-eval score -i your_agg_results.csv -I baseline_agg_results.csv'
+,
+
+must have something mixed up here  numbers are kinda bogus
+
+Yeah, that’s exactly what happened to me too — the competition_val_template.h5ad file only contains control cells (the “perturbed” cells inside are actually controls), so there’s no real validation data in it.
+You have to upload your VCC (Virtual Cell Challenge) predictions to the competition server to get actual evaluation scores.
+My local scores were all zeros for days — took me three full days to figure this out
+
+  FUNDAMENTAL BUG IN PDEX AND CELL-EVAL   
+
+We identified a critical bug in the pdex and cell-eval packages which makes DES unreliable. See the related github issues here: pdex, cell-eval. 
+
+The issue originates from the guess_is_log function of pdex. This function checks whether the sum of preprocessed counts is below 15, under the assumption that e¹⁵ − 1 ≈ 3.26M counts per cell is an unlikely value. 
+
+However, the function incorrectly assumes that the sum of counts is log-transformed, whereas in reality, each gene’s count is log-transformed individually.
+
+See the rest of the message in the thread  (módosítva)
+2025. október 10., péntek 17:09
+
+@aptxvc I also don't understand it fully. The way I understood this is that cell-eval will detect and log-normalize the prediction and pdex will get the is_log1p=True flag so FC estimates will not be log transformed again. Though I think there is something more to it
+
+I noticed the same thing. You told me that DES is evaluated on single-cell level, but clearly, if we don't submit the result in count space or norm-log space, which passes your guess_is_log, your evaluation will identify DE genes based on pseudo bulk level!
+
+And also, from my own testing, the centroid of the control cell in your backend is totally different from the centroid within the dataset you give us to train! This will seriously punish people who try to build their own model, instead of using STATE, because there are so many unclarified things in the inference pipeline. @Virtual Cell Challenge
+
+[TRAIN] PDS：
+  Official (signed Δ, full-K, mask target): 0.51633
+  Tracker  (no-clip, pred-ctrl):           0.51633
+  Tracker  (clip±12, pred-ctrl):           0.51633
+  Tracker  (clip±12, GLOBAL ctrl≈real):    0.66313
+
+[VAL] PDS：
+  Official (signed Δ, full-K, mask target): 0.51051
+  Tracker  (no-clip, pred-ctrl):           0.51051
+  Tracker  (clip±12, pred-ctrl):           0.51051
+  Tracker  (clip±12, GLOBAL ctrl≈real):    0.60736
+
+[TRAIN] PDS：   Official (signed Δ, full-K, mask target): 0.51633   Tracker  (no-clip, pred-ctrl):           0.51633   Tracker  (clip±12, pred-ctrl):           0.51633   Tracker  (clip±12, GLOBAL ctrl≈real):    0.66313  [VAL] PDS：   Official (signed Δ, full-K, mask target): 0.51051   Tracker  (no-clip, pred-ctrl):           0.51051   Tracker  (clip±12, pred-ctrl):           0.51051   Tracker  (clip±12, GLOBAL ctrl≈real):    0.60736
+
+where are these numbers from?
+
+Is anyone else having any issues making the vcc file after having predictions.h5ad from perturb mean model
+
+Yeah, that’s exactly what happened to me too — the competition_val_template.h5ad file only contains control cells (the “perturbed” cells inside are actually controls), so there’s no real validation data in it. You have to upload your VCC (Virtual Cell Challenge) predictions to the competition server to get actual evaluation scores. My local scores were all zeros for days — took me three full days to figure this out
+
+This is a very great insight! Thanks!
+
+where are these numbers from?
+
+I tested the official PDS pipeline with predicted Ctrl and original Ctrl. Because I wrote another callback within my own model, which can report me same value of PDS and DES as official every epoch. (módosítva)
+2025. október 13., hétfő 9:30
+
+Is there any way to run the validation scoring locally instead of uploading a file to the leaderboard? I’d like to test performance on the validation set multiple times to experiment with different approaches, but the current approach (one file upload every 24 hours) is slowing down productivity. Is there a way to score the validation set locally?
+
+@VCC (Abhinav Adduri) / ARC team - would it be possible for you to enable more than 1 submission per day? E.g. 3 per day per team? This would be nice for two reasons:
+
+
+teams can try more than one strategy at a time with definitive feedback
+,
+
+
+There seem to be various discrepancies with reproducibility of scoring.
+,
+
+Another point :
+The description on the VCC page: 
+
+https://virtualcellchallenge.org/evaluation
+
+says that the PDS score is calculated on average expression vectors i.e. without any influence of control cells. 
+
+"First, we calculate pseudobulk expression, predicted y^k and true yk, for each perturbation k (, <= k <= N) by averaging the log1p-normalized expressions of all genes over all perturbed cells."
+
+However, in reality, this is actually calculated on the deltas, i.e. with influence of the wild-type cells, isn't it?
+
+Is there any way to run the validation scoring locally instead of uploading a file to the leaderboard? I’d like to test performance on the validation set multiple times to experiment with different approaches, but the current approach (one file upload every 24 hours) is slowing down productivity. Is there a way to score the validation set locally?
+
+We are doing some local benchmarks by splitting the input matrix to 100 KO --> 50 KO. Because validation set of 50 KO expression profile (anndata) is not shared, this seems like the only way. Other than the sanity check (ground truth and prediction is same data),  we are also getting weird results with the scoring. I am happy to get any feed back about this if anyone is having the same problem. (módosítva)
+2025. október 13., hétfő 17:04
+
+We are doing some local benchmarks by splitting the input matrix to 100 KO --> 50 KO. Because validation set of 50 KO expression profile (anndata) is not shared, this seems like the only way. Other than the sanity check (ground truth and prediction is same data),  we are also getting weird results with the scoring. I am happy to get any feed back about this if anyone is having the same problem. (módosítva)
+2025. október 13., hétfő 17:04
+
+I’m doing the same thing. What is the weird result you are getting?
+
+@VCC (Abhinav Adduri) / ARC team - would it be possible for you to enable more than 1 submission per day? E.g. 3 per day per team? This would be nice for two reasons:  teams can try more than one strategy at a time with definitive feedback
+,
+ There seem to be various discrepancies with reproducibility of scoring.
+,
+
+For the challenge this year, once a day submissions is the only way to get verified results, but we are considering other approaches for next time.
+
+Are you planning more challenges in the near future?
+
+@Virtual Cell Challenge  have you released a baseline agg_results.csv file to use in "cell-eval score" for benchmarking off-line?
+
+I’m doing the same thing. What is the weird result you are getting?
+
+Hi, we are doing the same thing, but there's a huge gap between the local test score and the uploaded score, expecially on PDS. Have you ever met this problem?
+
+We are doing some local benchmarks by splitting the input matrix to 100 KO --> 50 KO. Because validation set of 50 KO expression profile (anndata) is not shared, this seems like the only way. Other than the sanity check (ground truth and prediction is same data),  we are also getting weird results with the scoring. I am happy to get any feed back about this if anyone is having the same problem. (módosítva)
+2025. október 13., hétfő 17:04
+
+I'm doing the same, but with a less train/validate ratio of 140/10, as I don't want to impact the training dataset by isolating a big chunk of it for validation.
+
+Currently, we can only submit a .vcc prediction file once per day. Is there a simpler and more direct way to evaluate it locally without uploading? Has anyone managed to do this and shared their method? Thanks!
+
+Currently, we can only submit a .vcc prediction file once per day. Is there a simpler and more direct way to evaluate it locally without uploading? Has anyone managed to do this and shared their method? Thanks!
+
+VCC team already replied to this - "For the challenge this year, once a day submissions is the only way to get verified results, but we are considering other approaches for next time."
+
+Currently, we can only submit a .vcc prediction file once per day. Is there a simpler and more direct way to evaluate it locally without uploading? Has anyone managed to do this and shared their method? Thanks!
+
+yep, you can just run the cell-eval package locally on a subset of unseen train genes
+
+PDS metrics won't be accurate because it depends on the number of genes in the set (you could do a 100/50 split and then it would work though)
+
+We have been doing some investigations on finding the upper limit of the competition results based on whatever is available. We employed two subsampling (SetA/B vs Set1/Set2. Please see the descriptions below.)
+
+Result: We observed a high score drop from 1 to .42 in DE score, which found it quite concerning because in the best case model can compete from .43 score in DE scores. You might say, it is what it is but, i just would like to get a feedback regarding am i doing something completely wrong? 
+
+Scores are 'mean' of the agg_results.csv
+
++--------------+-------------------------+------+-----------------+
+| overlap_at_N | discrimination_score_l1 | mae  | Experiment_Name |
++--------------+-------------------------+------+-----------------+
+| 1.00         | 1.00                    | 0.00 | Set1/Set1| 
++--------------+-------------------------+------+-----------------+
+| 0.43         | 0.95                    | 0.02 | Set1/Set2       |
++--------------+-------------------------+------+-----------------+
+
+
+Experiment descriptions:
+Input adata is vcc_data/adata_Training.h5ad
+
+Experiment parameters:
+
+Both output h5ads are raw counts. No normalisation applied.
+,
+cell-eval run 0.6.1
+,
+Code can be provided upon request to prevent clutter.
+,
+
+Set1/Set2:
+
+For every target, each set split into half.
+example: given gene A has 10 cells, Set1 gets 5 and Set2 gets 5 randomly. If number is odd, 1 cell is removed.
+,
+,
+Then full WT set added to Set1 and Set2.
+,
+
+Edit: I was worried about the char limit. thanks again for your input and time. I appreciate it  (módosítva)
+2025. október 15., szerda 0:19
+
+i appreciate the discussion.
+
+We have been doing some investigations on finding the upper limit of the competition results based on whatever is available. We employed two subsampling (SetA/B vs Set1/Set2. Please see the descriptions below.)  Result: We observed a high score drop from 1 to .42 in DE score, which found it quite concerning because in the best case model can compete from .43 score in DE scores. You might say, it is what it is but, i just would like to get a feedback regarding am i doing something completely wrong?   Scores are 'mean' of the agg_results.csv +--------------+-------------------------+------+-----------------+ | overlap_at_N | discrimination_score_l1 | mae  | Experiment_Name | +--------------+-------------------------+------+-----------------+ | 1.00         | 1.00                    | 0.00 | Set1/Set1|  +--------------+-------------------------+------+-----------------+ | 0.43         | 0.95                    | 0.02 | Set1/Set2       | +--------------+-------------------------+------+-----------------+  Experiment descriptions: Input adata is vcc_data/adata_Training.h5ad  Experiment parameters: Both output h5ads are raw counts. No normalisation applied.
+,
+cell-eval run 0.6.1
+,
+Code can be provided upon request to prevent clutter.
+,
+ Set1/Set2: For every target, each set split into half.example: given gene A has 10 cells, Set1 gets 5 and Set2 gets 5 randomly. If number is odd, 1 cell is removed.
+,
+,
+Then full WT set added to Set1 and Set2.
+,
+ Edit: I was worried about the char limit. thanks again for your input and time. I appreciate it  (módosítva)
+2025. október 15., szerda 0:19
+
+I think it's very hard to draw a meaningful conclusion from this kind of analysis:
+
+1-  We know that most heterogenicity comes from state, cycle etc. 
+
+2- You already have undersampled perturbation cells vs control (roughly ~40x less per perturbation), 
+
+You could make a case for how representative 1k cells are versus the global heterogenicity (I think it's on the lower bound however still ok), but if you divide the perturbation sets in two and now sample ~500 cells alone, you will get lots of DEGs from bio heterogenicity alone. 
+
+To see if what you are doing makes sense, you can simply subsample control cells and compare vs full control using pdex, I suspect that you will find that at low sample size, you get many DEGs. (módosítva)
+2025. október 14., kedd 23:32
+
+So in this case, your 0.42 DE score would strictly come from sampling low amount of cells.
+
+yep, you can just run the cell-eval package locally on a subset of unseen train genes
+
+thanks！
+
+Hi, we are doing the same thing, but there's a huge gap between the local test score and the uploaded score, expecially on PDS. Have you ever met this problem?
+
+Hey! I’m seeing this weird gap too. I split the dataset into a 120/30 train-test ratio for offline scoring, and even though the test score keeps getting higher during training, the uploaded results only improve a bit. Do you guys have any idea why?
+
+I think it's very hard to draw a meaningful conclusion from this kind of analysis:  1-  We know that most heterogenicity comes from state, cycle etc.   2- You already have undersampled perturbation cells vs control (roughly ~40x less per perturbation),   You could make a case for how representative 1k cells are versus the global heterogenicity (I think it's on the lower bound however still ok), but if you divide the perturbation sets in two and now sample ~500 cells alone, you will get lots of DEGs from bio heterogenicity alone.   To see if what you are doing makes sense, you can simply subsample control cells and compare vs full control using pdex, I suspect that you will find that at low sample size, you get many DEGs. (módosítva)
+2025. október 14., kedd 23:32
+
+You are correct about %40 less perturbation. to be honest didnt think that one through. thanks for pointing out that.
+
+I ran the proposed experiment based on what i understood from your message.
+
+Basically, keep perturbcells same but subsample WT cells to 20k, 10k and 5k. Then, I compared everywith with respect to ground truth of full data (full pert + ~40k WT).
+
+
+| statistic | overlap_at_N | discrimination_score_l1 |      mae |             experiment |
+|----------:|-------------:|------------------------:|---------:|-----------------------:|
+|      mean |     0.836592 |                1.000000 | 0.000668 | WTsubsample_full_10kWT |
+|      mean |     0.913672 |                1.000000 | 0.000304 | WTsubsample_full_20kWT |
+|      mean |     0.740216 |                1.000000 | 0.000893 |  WTsubsample_full_5kWT |
+
+
+I think i need to come up with a better experiment to calculate upper limit. (módosítva)
+2025. október 15., szerda 19:50
+
+You are correct about %40 less perturbation. to be honest didnt think that one through. thanks for pointing out that.  I ran the proposed experiment based on what i understood from your message.  Basically, keep perturbcells same but subsample WT cells to 20k, 10k and 5k. Then, I compared everywith with respect to ground truth of full data (full pert + ~40k WT).  | statistic | overlap_at_N | discrimination_score_l1 |      mae |             experiment | |----------:|-------------:|------------------------:|---------:|-----------------------:| |      mean |     0.836592 |                1.000000 | 0.000668 | WTsubsample_full_10kWT | |      mean |     0.913672 |                1.000000 | 0.000304 | WTsubsample_full_20kWT | |      mean |     0.740216 |                1.000000 | 0.000893 |  WTsubsample_full_5kWT |  I think i need to come up with a better experiment to calculate upper limit. (módosítva)
+2025. október 15., szerda 19:50
+
+Oof sorry I wasn’t specific enough, you could compare non-targeting vs non-targeting subset, this should give you at which threshold subsampling is too sparse (i.e. at the point at which you find lots of DEGs between non-targeting - full and non-targeting-subset) (módosítva)
+2025. október 15., szerda 19:51
+
+Oof sorry I wasn’t specific enough, you could compare non-targeting vs non-targeting subset, this should give you at which threshold subsampling is too sparse (i.e. at the point at which you find lots of DEGs between non-targeting - full and non-targeting-subset) (módosítva)
+2025. október 15., szerda 19:51
+
+gonna get back to you about this.
+
+will the validation set be released together with the target_genes n_cells and median counts for test set? @Virtual Cell Challenge (módosítva)
+2025. október 16., csütörtök 19:48
+
+cop.tm.31 (tunc)
+ gondolatmenetet kezdett: Low Overlap_at_N score with split data.. Nézz meg minden gondolatmenetet.
+ — 
+2025. 10. 16. 21:31
+2025. október 16., csütörtök 21:31
+
+Hi all,
+I am new to this challenge. I had few doubts. I was following the STATE for Virtual Cell Challenge Colab notebook. It downloaded few files including the Replogle dataset. It seems that the notebook trains a ST model from scratch (please correct me if I am wrong). What is 'ESM2_pert_features.pt' file which gets downloaded ? is it the checkpoint of protein encoder directly used for encoding cell expression values (different from SE block talked about in the STATE paper)? This challenge notebook didn't include any SE checkpoint as well. 
+
+Can anyone please help me out?
+
+Thank you!
+
+Hi all, I am new to this challenge. I had few doubts. I was following the STATE for Virtual Cell Challenge Colab notebook. It downloaded few files including the Replogle dataset. It seems that the notebook trains a ST model from scratch (please correct me if I am wrong). What is 'ESM2_pert_features.pt' file which gets downloaded ? is it the checkpoint of protein encoder directly used for encoding cell expression values (different from SE block talked about in the STATE paper)? This challenge notebook didn't include any SE checkpoint as well.   Can anyone please help me out?  Thank you!
+
+Hi, as I understand it, 
+
+Colab notebook only trains ST model. Since original purpose of STATE model (SE + ST) is different from that of Virtual cell challenge,  Arc institute only used slightly modified ST model for prediction in colab notebook. (There is no SE block)
+,
+
+
+ESM2_pert_features.pt  is a dictionary file that contains 5120 dimension feature vecter for each perturbation gene. It is genereated by using ESM2 (protein language model made by Meta AI). According to the paper, "Gene embeddings are computed with ESM-2, first by computing transcript embeddings by averaging per-amino-acid embeddings for each protein-coding transcript in the gene, and then by averaging across all the transcripts in the gene".
+,
+
+Hi all, I am new to this challenge. I had few doubts. I was following the STATE for Virtual Cell Challenge Colab notebook. It downloaded few files including the Replogle dataset. It seems that the notebook trains a ST model from scratch (please correct me if I am wrong). What is 'ESM2_pert_features.pt' file which gets downloaded ? is it the checkpoint of protein encoder directly used for encoding cell expression values (different from SE block talked about in the STATE paper)? This challenge notebook didn't include any SE checkpoint as well.   Can anyone please help me out?  Thank you!
+
+Yes, that's right, as mentioned above. It also took me a bit to understand it.
+The notebook trains a ST model from scratch, using data from Repogle and Nadig datasets. These two datasets include information on the effect of perturbing the same target genes as the challenge, but on different cell lines.
+When we use the model to predict, we essentially ask two questions. The first is about how the perturbation of a gene will affect gene expression, based on effect observed in the Replogle/Nadig datasets. The second is about the context, i.e. how gene expression is going to be different in the H1 cell line, compared to the others - based on the perturbations in the training dataset.
+
+Note that the cell lines in Replogle/Nadig datasets are cancer cell lines, while the challenges involves a stem cell line, H1. Thus, there may be significant biological differences that State may fail to understand. It may be a good idea to train it on more data, although unfortately, I could not see any stem cell line in the datasets listed.
+
+Training the model using the Replogle/Nadig datasets, on a single GPU, takes a few hours. I could not get it to run on the google/colab, as it ran out of memory. Maybe a Colab Pro account would have enough resources to do it, but I have not tried.
+
+Thanks a lot for this! Given this, I think it would be good if we used the competition dataset to train as well because it would have the H1 cell line data now
+
+You could download the weights in HuggingFace, compute embeddings on them, and use the embeddings to train another model (without ST). I've done it through the Helical package, but did not go much further with it. (here is a notebook on kaggle, showing how to install it via helical: https://www.kaggle.com/code/dalloliogm/virtual-cell-challenge-state-via-helical)
+
+Thanks a lot for this! Given this, I think it would be good if we used the competition dataset to train as well because it would have the H1 cell line data now
+
+Yes, if you look at the colab notebook, it also uses the training part of H1.
+
+Yes! Have u tried training the simple models like linear ones
+
+I had a score on them. But I didnt get the vcc file at the end for it. Is vcc only for state based things
+
+I would like to do that, but haven't gotten there yet. I've been trying to train state but it doesn't converge.
+
+I tried state and did submit that. Not sure how to make the vcc file from linear model predictions
+
+It is normal that the VCC file is 4GB in size? Are we expected to upload such big files to the competition page?
+Am I following the instructions correctly?
+
+my vcc file was also 3.7GB, so yes it's probably right
+
+Thank you so much @dream_designer @Sfollac GMT+1 , it cleared my doubt.
+
+I have few follow up comments, Please correct me if I am wrong.
+
+The ST cell encoder encodes  the cell state directly from basal expression and look in the ESM2.pt (dict) to get the encoded perturbation and just trains the ST model? 
+
+The cell encoder only considers the basal expression profile for the cell of interest? (módosítva)
+2025. október 18., szombat 17:54
+
+It is normal that the VCC file is 4GB in size? Are we expected to upload such big files to the competition page? Am I following the instructions correctly?
+
+Yes its around 4GB (módosítva)
+2025. október 18., szombat 17:55
+
+Thank you so much @dream_designer @Sfollac GMT+1 , it cleared my doubt.  I have few follow up comments, Please correct me if I am wrong.  The ST cell encoder encodes  the cell state directly from basal expression and look in the ESM2.pt (dict) to get the encoded perturbation and just trains the ST model?   The cell encoder only considers the basal expression profile for the cell of interest? (módosítva)
+2025. október 18., szombat 17:54
+
+If you look at the STATE paper, it uses a protein model to compute embeddings. This is what ESM2 is for.
+This tutorial is quite good: https://huggingface.co/blog/virtual-cell-challenge check the section where it says "A little biological detour"
+
+Thank you!
+
