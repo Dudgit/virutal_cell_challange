@@ -1,0 +1,16 @@
+data
+misc
+notebooks/competition
+notebooks/competition_support_set
+notebooks/state
+notebooks/wandb
+notebooks/wandb_logs
+wandb.key
+wandb
+logs
+debugging
+*.pyc
+*.log
+*.npy
+testing
+README.md
